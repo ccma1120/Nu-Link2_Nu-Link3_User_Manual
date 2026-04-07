@@ -26,18 +26,25 @@ jobs:
       - name: Install md-to-pdf
         run: npm install -g md-to-pdf
 
-      # 4. 合併與轉換 (拿掉原本會報錯的 config 參數)
+      # 4. 遞迴合併與轉換
       - name: Merge and Convert Markdown to PDF
         run: |
           cd Documents/Nu-Link3-Pro_User_Manual
-          # 將該資料夾下的所有 .md 檔合併成一個暫存檔
-          cat *.md > merged_manual.md
           
-          # 直接轉換
+          # 找出所有包含子資料夾的 .md 檔，依照字母/數字順序排列
+          # 將它們合併，並在每個檔案結尾加上強制的「換頁標籤」與換行
+          # ⚠️ 注意：統一輸出到「上一層目錄 (../)」，避免合併到一半把剛建好的檔案又吃進去
+          find . -type f -name "*.md" | sort | while read -r file; do
+            cat "$file"
+            echo -e "\n\n<div style=\"page-break-after: always;\"></div>\n\n"
+          done > ../merged_manual.md
+          
+          # 退回上一層目錄，開始將這份「巨無霸 Markdown」轉成 PDF
+          cd ..
           md-to-pdf merged_manual.md
           
-          # 將產生的 PDF 搬移到上層目錄，並重新命名
-          mv merged_manual.pdf ../../Nu-Link3-Pro_User_Manual.pdf
+          # 搬移到最外層並重新命名
+          mv merged_manual.pdf ../Nu-Link3-Pro_User_Manual.pdf
 
       # 5. 將打包好的 PDF 上傳為 GitHub Artifacts 供下載
       - name: Upload PDF Artifact
