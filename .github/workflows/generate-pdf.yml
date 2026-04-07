@@ -5,44 +5,41 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'Documents/Nu-Link3-Pro_User_Manual/**/*.md' # 只有當這個資料夾內的 md 變動時才執行
+      - 'Documents/Nu-Link3-Pro_User_Manual/**/*.md'
   workflow_dispatch: 
 
 jobs:
   build-pdf:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04 # ⭐️ 關鍵修改：從 ubuntu-latest 退回 ubuntu-22.04
     steps:
-      # 1. 取得儲存庫的程式碼 (升級至 v4)
+      # 1. 取得儲存庫的程式碼
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. 安裝 Node.js 環境 (升級至 v4)
+      # 2. 安裝 Node.js 環境
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # 順便將 Node.js 升級到建議的 LTS 版本
+          node-version: '20'
 
-      # 3. 安裝 Markdown 轉 PDF 的開源工具 (md-to-pdf)
+      # 3. 安裝 Markdown 轉 PDF 的開源工具
       - name: Install md-to-pdf
         run: npm install -g md-to-pdf
 
-      # 4. 合併與轉換
+      # 4. 合併與轉換 (拿掉原本會報錯的 config 參數)
       - name: Merge and Convert Markdown to PDF
         run: |
           cd Documents/Nu-Link3-Pro_User_Manual
           # 將該資料夾下的所有 .md 檔合併成一個暫存檔
           cat *.md > merged_manual.md
           
-          # 【新增這行】建立設定檔，告訴 Chrome 關閉沙盒模式以繞過 Ubuntu 24.04 的權限限制
-          echo '{"launch_options": {"args": ["--no-sandbox", "--disable-setuid-sandbox"]}}' > config.json
+          # 直接轉換
+          md-to-pdf merged_manual.md
           
-          # 將合併後的 Markdown 轉換為 PDF (並套用剛才的設定檔)
-          md-to-pdf merged_manual.md --config config.json
-          
-          # 將產生的 PDF 搬移到上層目錄，並重新命名為易讀的檔名
+          # 將產生的 PDF 搬移到上層目錄，並重新命名
           mv merged_manual.pdf ../../Nu-Link3-Pro_User_Manual.pdf
 
-      # 5. 將打包好的 PDF 上傳為 GitHub Artifacts 供下載 (升級至 v4)
+      # 5. 將打包好的 PDF 上傳為 GitHub Artifacts 供下載
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
