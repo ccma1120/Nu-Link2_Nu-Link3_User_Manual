@@ -1,6 +1,5 @@
-name: Generate Nu-Link3-Pro Manual PDF
+name: Generate Nu-Link3-Pro Manual PDF (Pandoc)
 
-# 設定觸發條件：當推送到 main 分支，或是手動點擊執行時觸發
 on:
   push:
     branches: [ main ]
@@ -9,46 +8,43 @@ on:
   workflow_dispatch: 
 
 jobs:
-  build-pdf:
-    runs-on: ubuntu-22.04 # ⭐️ 關鍵修改：從 ubuntu-latest 退回 ubuntu-22.04
+  build-pdf-pandoc:
+    runs-on: ubuntu-22.04
     steps:
-      # 1. 取得儲存庫的程式碼
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. 安裝 Node.js 環境
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+      # 安裝 Pandoc, LaTeX 引擎 (XeTeX) 以及思源黑體中文字型
+      - name: Install Pandoc & LaTeX & CJK Fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra
+          sudo apt-get install -y fonts-noto-cjk
 
-      # 3. 安裝 Markdown 轉 PDF 的開源工具
-      - name: Install md-to-pdf
-        run: npm install -g md-to-pdf
-
-      # 4. 遞迴合併與轉換
-      - name: Merge and Convert Markdown to PDF
+      # 轉換 Markdown 為 PDF
+      - name: Convert with Pandoc
         run: |
           cd Documents/Nu-Link3-Pro_User_Manual
           
-          # 找出所有包含子資料夾的 .md 檔，依照字母/數字順序排列
-          # 將它們合併，並在每個檔案結尾加上強制的「換頁標籤」與換行
-          # ⚠️ 注意：統一輸出到「上一層目錄 (../)」，避免合併到一半把剛建好的檔案又吃進去
-          find . -type f -name "*.md" | sort | while read -r file; do
-            cat "$file"
-            echo -e "\n\n<div style=\"page-break-after: always;\"></div>\n\n"
-          done > ../merged_manual.md
+          # 找出所有 .md 檔案並依字母順序排列
+          FILES=$(find . -type f -name "*.md" | sort)
           
-          # 退回上一層目錄，開始將這份「巨無霸 Markdown」轉成 PDF
-          cd ..
-          md-to-pdf merged_manual.md
-          
-          # 搬移到最外層並重新命名
-          mv merged_manual.pdf ../Nu-Link3-Pro_User_Manual.pdf
+          # 執行 Pandoc 轉換
+          # --pdf-engine=xelatex：指定支援 Unicode 的引擎
+          # -V CJKmainfont：指定中文字體，解決中文亂碼問題
+          # --toc：自動在第一頁生成可點擊的目錄
+          # --number-sections：自動為標題加上 1.1, 1.2 等編號
+          # -V geometry:margin=1in：設定邊距
+          pandoc $FILES \
+            -o ../../Nu-Link3-Pro_User_Manual.pdf \
+            --pdf-engine=xelatex \
+            -V CJKmainfont="Noto Sans CJK TC" \
+            -V geometry:margin=1in \
+            --toc \
+            --number-sections
 
-      # 5. 將打包好的 PDF 上傳為 GitHub Artifacts 供下載
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Nu-Link3-Pro_User_Manual
+          name: Nu-Link3-Pro_User_Manual_Pandoc
           path: Nu-Link3-Pro_User_Manual.pdf
