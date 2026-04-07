@@ -1,0 +1,48 @@
+name: Generate Nu-Link3-Pro Manual PDF
+
+# 設定觸發條件：當推送到 main 分支，或是手動點擊執行時觸發
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'Documents/Nu-Link3-Pro_User_Manual/**/*.md' # 只有當這個資料夾內的 md 變動時才執行
+  workflow_dispatch: 
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 取得儲存庫的程式碼
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. 安裝 Node.js 環境
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      # 3. 安裝 Markdown 轉 PDF 的開源工具 (md-to-pdf)
+      - name: Install md-to-pdf
+        run: npm install -g md-to-pdf
+
+      # 4. 合併與轉換
+      - name: Merge and Convert Markdown to PDF
+        run: |
+          cd Documents/Nu-Link3-Pro_User_Manual
+          # 將該資料夾下的所有 .md 檔合併成一個暫存檔
+          # 注意：cat *.md 會依照檔名的字母順序合併
+          cat *.md > merged_manual.md
+          
+          # 將合併後的 Markdown 轉換為 PDF
+          md-to-pdf merged_manual.md
+          
+          # 將產生的 PDF 搬移到上層目錄，並重新命名為易讀的檔名
+          mv merged_manual.pdf ../../Nu-Link3-Pro_User_Manual.pdf
+
+      # 5. 將打包好的 PDF 上傳為 GitHub Artifacts 供下載
+      - name: Upload PDF Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: Nu-Link3-Pro_User_Manual
+          path: Nu-Link3-Pro_User_Manual.pdf
