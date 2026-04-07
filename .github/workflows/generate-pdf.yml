@@ -33,8 +33,11 @@ jobs:
           # 將該資料夾下的所有 .md 檔合併成一個暫存檔
           cat *.md > merged_manual.md
           
-          # 將合併後的 Markdown 轉換為 PDF
-          md-to-pdf merged_manual.md
+          # 【新增這行】建立設定檔，告訴 Chrome 關閉沙盒模式以繞過 Ubuntu 24.04 的權限限制
+          echo '{"launch_options": {"args": ["--no-sandbox", "--disable-setuid-sandbox"]}}' > config.json
+          
+          # 將合併後的 Markdown 轉換為 PDF (並套用剛才的設定檔)
+          md-to-pdf merged_manual.md --config config.json
           
           # 將產生的 PDF 搬移到上層目錄，並重新命名為易讀的檔名
           mv merged_manual.pdf ../../Nu-Link3-Pro_User_Manual.pdf
