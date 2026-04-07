@@ -27,7 +27,7 @@ jobs:
           cd Documents/Nu-Link3-Pro_User_Manual
           
           # ⚠️ 關鍵修改：把 `find .` 改成 `find doc`
-          FILES=$(find doc -type f -name "*.md" | sort)
+          FILES=$(find docs -type f -name "*.md" | sort)
           
           pandoc $FILES \
             -o ../../Nu-Link3-Pro_User_Manual.pdf \
