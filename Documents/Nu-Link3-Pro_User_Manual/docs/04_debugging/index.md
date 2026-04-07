@@ -1,4 +1,4 @@
-# Chapter 4: Debugging
+# Debugging
 
 The Nu-Link family provide a USB-to-SWD bridge, enabling software tools to debug and program the target chip over USB.
 
