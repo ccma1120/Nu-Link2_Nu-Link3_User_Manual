@@ -14,13 +14,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 1. 這裡新增了 fonts-dejavu 來支援 ✔ 和 ≤ 等特殊符號
       - name: Install Pandoc & LaTeX & CJK Fonts
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra texlive-lang-chinese
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-lang-chinese
           sudo apt-get install -y fonts-noto-cjk fonts-dejavu
-
+          
       # 2. 轉換區塊
       - name: Convert with Pandoc
         run: |
