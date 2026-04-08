@@ -66,11 +66,11 @@
 ## System Overview
 
 Overview of software tools, Nu-Link2-Pro adapters, and targets:
-![debugger](../../media/nu-link2/7380_BM0.PNG)
-![bridge](../../media/nu-link2/7380_BM1.PNG)
-![monitor](../../media/nu-link2/7380_BM1_MON.PNG)
-![isp](../../media/nu-link2/7380_BM2.png)
-![bootloader isp](../../media/nu-link2/7443_BM3.png)
+![debugger](media/nu-link2/7380_BM0.PNG)
+![bridge](media/nu-link2/7380_BM1.PNG)
+![monitor](media/nu-link2/7380_BM1_MON.PNG)
+![isp](media/nu-link2/7380_BM2.png)
+![bootloader isp](media/nu-link2/7443_BM3.png)
 
 ## Driver Installation
 
@@ -92,18 +92,18 @@ Users can reprogram Nu-Link2-Pro with another .bin file using the following inst
 1. When you upgrade NuLink2FW.bin to a version greater than or equal to v3.09.7380, you will see some options in NU_CFG.TXT:
 
 - Open the NU_CFG.TXT file in the pop-up "NuMicro MCU" disk
-    ![NU_CFG.TXT](../../media/NUTXT.png)
+    ![NU_CFG.TXT](media/NUTXT.png)
 
 2. For the Nu-Link2-Pro, you will see POWER-MODE and BRIDGE-MODE options. You need to re-plug the USB cable to activate the setting.
 
 - Set POWER-MODE for SWD output voltage level (mainly for CMSIS-DAP interface use).
 
 - Set BRIDGE-MODE=0; this is the default setting. It has a WebUSB interface conforming to the CMSIS-DAP protocol, and you can connect to KEIL Studio Desktop/Cloud via this interface. Note that CMSIS-DAP will be disabled in other BRIDGE-MODEs (limited USB endpoints).  
-    ![DEV_WEBUSB](../../media/nu-link2/7380_DEV_WEBUSB_2005.PNG)
+    ![DEV_WEBUSB](media/nu-link2/7380_DEV_WEBUSB_2005.PNG)
 
 - Set BRIDGE-MODE=1; the pass-through bridge function of Nu-Link2-Pro will be enabled ("Nu-Link2-Bridge" refers to the pass-through bridge application on the Nu-Link2-Pro adapter). Nu-Link2-Bridge passes data between the VCOM port and I2C/SPI/RS485/CAN interfaces.
     (You will see a "Nu-Link2-Bridge Virtual Com Port" in Device Manager.)  
-    ![device VCOM](../../media/nu-link2/device_manager.png)
+    ![device VCOM](media/nu-link2/device_manager.png)
 
 - Set BRIDGE-MODE=2; a USB HID interface that supports ISPTool will be enabled. This USB HID interface doesn't pass through data; it communicates with ISPTool via HID_ISP and offers I2C/SPI/RS485/CAN interfaces for ISPTool.
 

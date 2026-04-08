@@ -6,7 +6,7 @@ Offline Programming means that the Nu-Link can update the firmware without acces
 
 In addition, the Nu-Link supports "Limited Offline Programming," which can effectively control the authorized number of the firmware.
 
-![Offline Programming Flow Diagram](../../../media/nu-link3/image28.png)
+![Offline Programming Flow Diagram](media/nu-link3/image28.png)
 
 *Figure: Offline Programming Flow Diagram*
 
@@ -40,19 +40,19 @@ This section describes how to use Nu-Link for automatic offline programming.
 
 **Step 2:** Click **Operation**, select **Erase Offline Data on Nu-Link** and make sure APROM is cleared.
 
-![ICP Erase Whole Target Chip Diagram](../../../media/nu-link3/image29.png)
+![ICP Erase Whole Target Chip Diagram](media/nu-link3/image29.png)
 
 *Figure: ICP Erase Whole Target Chip Diagram*
 
 **Step 3:** Load target **APROM** file.
 
-![ICP Offline Programming Diagram](../../../media/nu-link3/image30.png)
+![ICP Offline Programming Diagram](media/nu-link3/image30.png)
 
 *Figure: ICP Offline Programming Diagram*
 
 **Step 4:** Click **Setting** and select **Boot Option** as **APROM**.
 
-![ICP Offline Programming Illustration of Chip Settings](../../../media/nu-link3/image31.png)
+![ICP Offline Programming Illustration of Chip Settings](media/nu-link3/image31.png)
 
 *Figure: ICP Offline Programming Illustration of Chip Settings*
 
@@ -60,13 +60,13 @@ This section describes how to use Nu-Link for automatic offline programming.
 
 **Step 6:** Click **Option** and select **Offline Programming Mode** and **Auto-programming**.
 
-![ICP Offline Programming Illustration of Program Option](../../../media/nu-link3/image32.png)
+![ICP Offline Programming Illustration of Program Option](media/nu-link3/image32.png)
 
 *Figure: ICP Offline Programming Illustration of Program Option*
 
 **Step 7:** Press **Start** to storage offline data to Nu-Link, and confirm that APROM of Offline Flash and APROM of Load File are file matched.
 
-![ICP Offline Flash File matched Diagram](../../../media/nu-link3/image33.png)
+![ICP Offline Flash File matched Diagram](media/nu-link3/image33.png)
 
 *Figure: ICP Offline Flash File matched Diagram*
 
@@ -100,6 +100,6 @@ The Software Serial Number (SN) function provided by the ICP Tool enables users 
 
 The user can specify a set of "Increased Serial Number (SN)" and "Write Address" to any of APROM, LDROM, and Data Flash, and the written Serial Number (SN) will be automatically incremented.
 
-![Software Serial Number (SN) Settings](../../../media/nu-link3/image35.png)
+![Software Serial Number (SN) Settings](media/nu-link3/image35.png)
 
 *Figure: Software Serial Number (SN) Settings*

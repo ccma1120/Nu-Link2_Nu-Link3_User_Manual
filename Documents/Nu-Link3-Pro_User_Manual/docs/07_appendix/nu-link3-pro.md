@@ -68,7 +68,7 @@ The operating current of Nu-Link3-Pro during ISP online programming with power s
 
 The automatic IC programming system through individual slot and the Control Bus.
 
-![SWD Connector Pin Diagrams](../../media/nu-link3/image90.png)
+![SWD Connector Pin Diagrams](media/nu-link3/image90.png)
 
 *Figure: SWD Connector Pin Diagrams*
 
@@ -84,11 +84,11 @@ The automatic IC programming system through individual slot and the Control Bus.
    - When BUSY is set to logic 1, and PASS is set to logic 0, means **"PASS"**.
    - When BUSY is set to logic 1, and FAIL is set to logic 0, means **"FAIL"**.
 
-![PASS Waveform](../../media/nu-link3/image91.png)
+![PASS Waveform](media/nu-link3/image91.png)
 
 *Figure: PASS Waveform*
 
-![FAIL Waveform](../../media/nu-link3/image92.png)
+![FAIL Waveform](media/nu-link3/image92.png)
 
 *Figure: FAIL Waveform*
 

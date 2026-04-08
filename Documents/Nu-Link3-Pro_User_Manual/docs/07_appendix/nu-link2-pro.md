@@ -68,7 +68,7 @@ Table: Operating Current of ISP Online Programming
 The automatic IC programming system through individual slot and the
 Control Bus as Figure:.
 
-![](../../media/nu-link2/image82.png)
+![](media/nu-link2/image82.png)
 
 #### Figure: SWD Connector Pin Diagrams
 
@@ -90,11 +90,11 @@ Control Bus as Figure:.
 
 - When BUSY is set to logic 1, and FAIL is set to logic 0, means “FAIL”.
 
-![](../../media/nu-link2/image83.png)
+![](media/nu-link2/image83.png)
 
 > Figure: PASS Waveform
 
-![](../../media/nu-link2/image84.png)
+![](media/nu-link2/image84.png)
 
 > Figure: FAIL Waveform
 
@@ -194,7 +194,7 @@ that third parties lay claims to Nuvoton as a result of customer’s
 Insecure Usage, customer shall indemnify the damages and liabilities
 thus incurred by Nuvoton.**
 
-<img src="../../media/nu-link2/image90.png" style="width:6.28542in;height:0.37639in"
+<img src="media/nu-link2/image90.png" style="width:6.28542in;height:0.37639in"
 alt="Description: 描述: 描述: 描述: 描述: logo3" />
 
 

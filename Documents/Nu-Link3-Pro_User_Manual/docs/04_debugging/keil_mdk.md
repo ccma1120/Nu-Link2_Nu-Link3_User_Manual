@@ -15,13 +15,13 @@
 
 2. **Enable Debug Information:** Navigate to **Project → Options for Target → Output**. Ensure the **Debug Information** option is checked.
 
-   ![Enable Debug Information for Keil MDK](../../media/nu-link3/image47.png)
+   ![Enable Debug Information for Keil MDK](media/nu-link3/image47.png)
    
    *Figure: Enable Debug Information for Keil MDK*
 
 3. **Select the Debugger:** Navigate to **Project → Options for Target → Debug**. In the "Use" drop-down menu on the right, select **Nuvoton Nu-Link Debugger** and ensure the option is checked.
 
-   ![Debugger Setting in Options Window](../../media/nu-link3/image48.png)
+   ![Debugger Setting in Options Window](media/nu-link3/image48.png)
    
    *Figure: Debugger Setting in Options Window*
 
@@ -42,25 +42,25 @@
 
 5. **Select Flash Driver:** Navigate to **Project → Options for Target → Utilities**. Ensure **Use Target Driver for Flash Programming** is enabled and select **Nuvoton Nu-Link Debugger** from the drop-down menu. Additionally, check the **Update Target before Debugging** option.
 
-   ![Keil MDK Programmer Selection](../../media/nu-link3/image52.png)
+   ![Keil MDK Programmer Selection](media/nu-link3/image52.png)
    
    *Figure: Keil MDK Programmer Selection*
 
 6. **Configure Flash Download:** Click the **Settings** button to open the **Flash Download** setup window. Here, you can specify actions to be performed before programming the target via the Nu-Link.
 
-   ![Nu-Link3 Programming Settings](../../media/nu-link3/image53.png)
+   ![Nu-Link3 Programming Settings](media/nu-link3/image53.png)
    
    *Figure: Nu-Link Programming Settings*
 
 7. **Compile and Download:** Click **Rebuild** to compile all target files. After a successful compilation, click the **Download** button to flash the code to memory. To begin a session, click the **Start/Stop Debug Session** button to enter debug mode.
 
-   ![Compile and Download the Project](../../media/nu-link3/image54.png)
+   ![Compile and Download the Project](media/nu-link3/image54.png)
    
    *Figure: Compile and Download the Project*
 
 8. **Execution and Monitoring:** Click **Run** to execute the code; debug messages will be displayed. While in debug mode, you can analyze the project by inspecting source code, assembly language, and peripheral registers, as well as utilizing breakpoints, step-run, and variable monitoring.
 
-   ![Keil MDK Debug Mode](../../media/nu-link3/image55.png)
+   ![Keil MDK Debug Mode](media/nu-link3/image55.png)
    
    *Figure: Keil MDK Debug Mode*
 
@@ -77,7 +77,7 @@ To enable **Embedded Trace Macrocell (ETM)** tracing on Nuvoton Cortex®-M4, M23
    - **Capture Mode:** Specify whether trace data is collected before or after a trigger
    - **Enabling Trace:** Ensure both Trace Enable and ETM Trace Enable are checked
 
-   ![Trace Setup with ETM](../../media/nu-link3/image58.png)
+   ![Trace Setup with ETM](media/nu-link3/image58.png)
    
    *Figure: Trace Setup with ETM*
 
@@ -87,7 +87,7 @@ To enable **Embedded Trace Macrocell (ETM)** tracing on Nuvoton Cortex®-M4, M23
 
 5. Set **breakpoints** or use **single-step execution** to observe the instruction flow.
 
-   ![Tracing Information Dialog](../../media/nu-link3/image61.png)
+   ![Tracing Information Dialog](media/nu-link3/image61.png)
    
    *Figure: Tracing Information Dialog*
 
@@ -116,7 +116,7 @@ Breakpoints allow you to pause program execution at specific lines of code. Duri
 2. Click in the gray margin next to a line of code to toggle a breakpoint.
 3. Run the program; execution will pause at each breakpoint.
 
-![Setting Breakpoints in Keil MDK Debug Mode](../../media/nu-link3/image22.png)
+![Setting Breakpoints in Keil MDK Debug Mode](media/nu-link3/image22.png)
 
 *Figure: Setting Breakpoints in Keil MDK Debug Mode*
 
@@ -129,7 +129,7 @@ The System Viewer displays peripheral register contents and allows real-time man
 2. Navigate to **View → System Viewer**.
 3. Select a peripheral from the list (e.g., ADC, CAN, CLK, GPIO, TIMER).
 
-![System Viewer Control Related Options in Keil MDK Debug Mode](../../media/nu-link3/image23.png)
+![System Viewer Control Related Options in Keil MDK Debug Mode](media/nu-link3/image23.png)
 
 *Figure: System Viewer Menu in Keil MDK Debug Mode*
 
@@ -137,7 +137,7 @@ The System Viewer displays peripheral register contents and allows real-time man
 - **Expand register details:** Double-click a register name to view bit fields.
 - **Modify values:** Click on a register value to edit it directly. Changes are written to the target chip immediately.
 
-![System Viewer in Keil MDK Debug Mode](../../media/nu-link3/image24.png)
+![System Viewer in Keil MDK Debug Mode](media/nu-link3/image24.png)
 
 *Figure: System Viewer Register Details in Keil MDK Debug Mode*
 
@@ -163,7 +163,7 @@ Semihost enables debug message output through the debugger interface, eliminatin
 5. **Run the Program:**
    - Press **F5** or click **Run**. Debug messages will appear in the UART #1 window.
 
-![Semihost Options in Keil MDK Debug Mode](../../media/nu-link3/image26.png)
+![Semihost Options in Keil MDK Debug Mode](media/nu-link3/image26.png)
 
 *Figure: Semihost Output in Keil MDK Debug Mode*
 
