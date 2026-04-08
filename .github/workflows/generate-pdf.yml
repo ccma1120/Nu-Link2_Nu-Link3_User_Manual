@@ -37,6 +37,7 @@ jobs:
             --toc \
             --number-sections \
             --resource-path=.:..:../..:../../..
+            --include-before-body=cover.tex
 
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
