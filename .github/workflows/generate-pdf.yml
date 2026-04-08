@@ -21,16 +21,14 @@ jobs:
           sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra texlive-lang-chinese
           sudo apt-get install -y fonts-noto-cjk
 
-      # 轉換 Markdown 為 PDF
+# 轉換 Markdown 為 PDF
       - name: Convert with Pandoc
         run: |
           cd Documents/Nu-Link3-Pro_User_Manual
           
-          # 找出所有 .md 檔案並依字母順序排列
-          FILES=$(find . -type f -name "*.md" | sort)
+          # ⚠️ 關鍵修改：把 `find .` 改成 `find doc`
+          FILES=$(find docs -type f -name "*.md" | sort)
           
-          # 執行 Pandoc 轉換
-          # --resource-path 用於往上層目錄尋找 media 資料夾內的圖片
           pandoc $FILES \
             -o ../../Nu-Link3-Pro_User_Manual.pdf \
             --pdf-engine=xelatex \
