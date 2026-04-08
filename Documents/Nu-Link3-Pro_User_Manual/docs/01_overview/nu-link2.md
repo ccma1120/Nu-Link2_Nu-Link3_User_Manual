@@ -50,9 +50,9 @@
 ## System Overview
 
 Overview of software tools, Nu-Link2 adapters, and targets:
-![debugger](media/nu-link2/7380_BM0.PNG)
-![isp](media/nu-link2/7380_BM2.png)
-![bootloader isp](media/nu-link2/7443_BM3.png)
+![debugger](../../media/nu-link2/7380_BM0.PNG)
+![isp](../../media/nu-link2/7380_BM2.png)
+![bootloader isp](../../media/nu-link2/7443_BM3.png)
 
 ## Driver Installation
 
@@ -63,7 +63,7 @@ For Windows operating systems, please download and install the [Nu-Link_USB_Driv
 1. When you upgrade NuLink2FW.bin to a version greater than or equal to v3.09.7380, you will see some options in NU_CFG.TXT:
 
 - Open the NU_CFG.TXT file in the pop-up "NuMicro MCU" disk
-    ![NU_CFG.TXT](media/NUTXT.png)
+    ![NU_CFG.TXT](../../media/NUTXT.png)
 
 
 - Set CMSIS-DAP=1; this is the default setting. It has a WebUSB interface conforming to the CMSIS-DAP protocol, and you can connect to KEIL Studio Cloud via this interface.

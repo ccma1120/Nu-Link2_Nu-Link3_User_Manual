@@ -7,7 +7,7 @@ The Nu-Link2-Pro mainly contains USB, Micro USB, Bridge interface, ETM
 interface and SWD interface. User can freely select a suitable interface
 for debugger and programmer.
 
-![](media/nu-link2/image6.png)
+![](../../media/nu-link2/image6.png)
 
 #### Figure: Pin Definition of Nu-Link2-Pro Connectors
 
@@ -42,7 +42,7 @@ ICE_CLK(CON4.5), /RESET(CON4.7) and VSS(CON4.9). The diagram below presents
 how to connect the target board to use ICE and the following table shows the pin
 corresponding to the target board.
 
-![](media/nu-link2/image7.png)
+![](../../media/nu-link2/image7.png)
 
 #### Figure: SWD Interface Connection Diagram for ICE
 
@@ -64,7 +64,7 @@ connection pins are VCC (CON4.1), VSS (CON4.9), TX (CON4.8) and RX
 (CON4.10). The diagram below presents how to connect the target board to use
 VCOM and the following table shows the pin corresponding to the target board.
 
-![](media/nu-link2/image8.png)
+![](../../media/nu-link2/image8.png)
 
 #### Figure: SWD Interface Connection Diagram for Virtual COM
 
@@ -86,7 +86,7 @@ FAIL (CON4.10). The diagram below presents how to connect the target board to
 use Automatic IC Programming and the following table shows the pin corresponding
 to the target board.
 
-![](media/nu-link2/image9.png)
+![](../../media/nu-link2/image9.png)
 
 #### Figure: SWD Interface Connection Diagram for Automatic IC Programming
 
@@ -145,7 +145,7 @@ The diagram below presents how to connect the target board to use UART
 function and the following table shows the pin corresponding to the target
 board.
 
-![](media/nu-link2/image10.png)
+![](../../media/nu-link2/image10.png)
 
 #### Figure: Bridge Interface Connection Diagram for UART
 
@@ -172,7 +172,7 @@ the target board. Click for further bridge information:
 [Github](https://github.com/OpenNuvoton/Nuvoton_Tools)
 [Gitee](https://gitee.com/OpenNuvoton/Nuvoton_Tools)
 
-![](media/nu-link2/image11.png)
+![](../../media/nu-link2/image11.png)
 
 #### Figure: Bridge Interface Connection Diagram for I2C
 
@@ -199,7 +199,7 @@ target board. Click for further bridge information:
 [Github](https://github.com/OpenNuvoton/Nuvoton_Tools)
 [Gitee](https://gitee.com/OpenNuvoton/Nuvoton_Tools).
 
-![](media/nu-link2/image12.png)
+![](../../media/nu-link2/image12.png)
 
 #### Figure: Bridge Interface Connection Diagram for SPI
 
@@ -228,7 +228,7 @@ for further bridge information:
 [Github](https://github.com/OpenNuvoton/Nuvoton_Tools)
 [Gitee](https://gitee.com/OpenNuvoton/Nuvoton_Tools)
 
-![](media/nu-link2/image13.png)
+![](../../media/nu-link2/image13.png)
 
 #### Figure: Bridge Interface Connection Diagram for RS-485
 
@@ -253,7 +253,7 @@ The diagram below presents how to connect the target board to use CAN BUS
 function and the following table shows the pin corresponding to the target
 board. 
 
-![](media/nu-link2/image14.png)
+![](../../media/nu-link2/image14.png)
 
 #### Bridge Interface Connection Diagram for CAN BUS
 
@@ -277,7 +277,7 @@ VSS(CON6.18 and CON6.20) and PWM(CON6.15). The diagram below presents how to
 connect the target board to use PWM function and the following table shows the
 pin corresponding to the target board.
 
-![](media/nu-link2/image15.png)
+![](../../media/nu-link2/image15.png)
 
 #### Bridge Interface Connection Diagram for PWM
 
@@ -300,7 +300,7 @@ VSS(CON6.18 and CON6.20) and ADC(CON6.13). The diagram below presents how to
 connect the target board to use ADC function and the following table shows the
 pin corresponding to the target board.
 
-![](media/nu-link2/image16.png)
+![](../../media/nu-link2/image16.png)
 
 #### Bridge Interface Connection Diagram for ADC
 
@@ -323,7 +323,7 @@ VSS(CON6.18 and CON6.20), GPIO0(CON6.17) and GPIO1(CON6.19). The diagram
 below presents how to connect the target board to use GPIO function and
 the following table shows the pin corresponding to the target board.
 
-![](media/nu-link2/image17.png)
+![](../../media/nu-link2/image17.png)
 
 #### Bridge Interface Connection Diagram for GPIO
 
@@ -347,7 +347,7 @@ and CON6.20), SS (CON6.5) and CLK (CON6.6). The diagram below presents how to
 connect the target board to use LIN function and the following table shows the
 pin corresponding to the target board.
 
-![](media/nu-link2/image18.png)
+![](../../media/nu-link2/image18.png)
 
 #### Figure: Bridge Interface Connection Diagram for LIN
 
@@ -404,7 +404,7 @@ SWD function. In addition, please pay attention to the behavior and do
 not program or debug at the same time with the SWD interface; otherwise,
 an error will occur.
 
-![](media/nu-link2/image19.png)
+![](../../media/nu-link2/image19.png)
 
 #### Figure: ETM Interface Connection Diagram for SWD and ETM Function
 
@@ -423,7 +423,7 @@ drive, Micro SD card or SPI Flash for offline programming. The priority
 of reading from these three storage is USB Flash drive \> Micro SD card
 \> SPI Flash. The diagram below shows the SWD interface used for offline programming.
 
-![](media/nu-link2/image20.png)
+![](../../media/nu-link2/image20.png)
 
 #### Figure: ICP Offline Programming Illustration of SWD Interface
 

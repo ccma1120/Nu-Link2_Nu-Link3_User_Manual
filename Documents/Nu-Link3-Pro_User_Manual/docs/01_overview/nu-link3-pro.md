@@ -34,19 +34,19 @@ The following diagrams illustrate the various roles Nu-Link3-Pro can play in you
 
 
 **Debugger Mode:**
-![Debugger Connection](media/nu-link3/nulink3-ide.png)
+![Debugger Connection](../../media/nu-link3/nulink3-ide.png)
 
 **Bridge / USB-to-Serial Mode:**
-![Bridge Connection](media/nu-link3/nulink3-usb2serial.png)
+![Bridge Connection](../../media/nu-link3/nulink3-usb2serial.png)
 
 **Monitor Mode:**
-![Monitor Mode](media/nu-link3/nulink3-usb2serial_mon.png)
+![Monitor Mode](../../media/nu-link3/nulink3-usb2serial_mon.png)
 
 **PulseView Logic Analyzer:**
-![PulseView](media/nu-link3/nulink3-pulseview.png)
+![PulseView](../../media/nu-link3/nulink3-pulseview.png)
 
 **ISP Programming:**
-![ISP Programming](media/nu-link3/nulink3-isp.png)
+![ISP Programming](../../media/nu-link3/nulink3-isp.png)
 
 
 
@@ -74,7 +74,7 @@ Users can reprogram Nu-Link3 with another .bin file using the following instruct
 You will see some options in NU_CFG.TXT:
 
 * Open the NU_CFG.TXT file in the pop-up "NuMicro MCU" disk  
-  ![NU_CFG.TXT](media/NUTXT.png)
+  ![NU_CFG.TXT](../../media/NUTXT.png)
 
 * Set `POWER-MODE` for SWD output voltage level (mainly for CMSIS-DAP interface use).
 

@@ -6,13 +6,13 @@
 
 2. **Select Interface:** Launch the ISP Tool and select the desired connection interface (e.g., UART, SPI, I2C).
 
-   ![Startup Screen of ISP Tool](media/nu-link3/image82.png)
+   ![Startup Screen of ISP Tool](../../../media/nu-link3/image82.png)
    
    *Figure: Startup Screen of ISP Tool*
 
 3. **Check Status:** Upon opening, the status will show "Disconnected" as the target chip is not yet linked.
 
-   ![ISP is not connected to any device](media/nu-link3/image83.png)
+   ![ISP is not connected to any device](../../../media/nu-link3/image83.png)
    
    *Figure: ISP Tool is not connected to any device*
 
@@ -33,7 +33,7 @@
    - Locate the ISP sample project in `SampleCode\ISP`.
    - Open the project in your IDE (e.g., Keil MDK).
 
-   ![ISP Firmware Sample Code Project](media/nu-link3/image84.png)
+   ![ISP Firmware Sample Code Project](../../../media/nu-link3/image84.png)
    
    *Figure: ISP Firmware Sample Code Project*
 
@@ -41,7 +41,7 @@
    - Configure the project to boot from **LDROM**.
    - Compile and download the ISP firmware to the target chip's **LDROM**.
 
-   ![Boot from LDROM Setting in Keil ISP Firmware Project](media/nu-link3/image85.png)
+   ![Boot from LDROM Setting in Keil ISP Firmware Project](../../../media/nu-link3/image85.png)
    
    *Figure: Boot from LDROM Setting in Keil ISP Firmware Project*
 
@@ -54,13 +54,13 @@
    - Click **Connect**.
    - Reset the target chip to execute the ISP code in LDROM. The tool should now detect the device.
 
-   ![Connect to Target Chip with SPI Interface](media/nu-link3/image86.png)
+   ![Connect to Target Chip with SPI Interface](../../../media/nu-link3/image86.png)
    
    *Figure: Connect to Target Chip with SPI Interface*
 
 2. **UART Configuration (If applicable):** If using UART, select the correct COM port corresponding to the Nu-Link VCOM.
 
-   ![Select VCOM Port Number with UART Interface](media/nu-link3/image87.png)
+   ![Select VCOM Port Number with UART Interface](../../../media/nu-link3/image87.png)
    
    *Figure: Select VCOM Port Number with UART Interface*
 
@@ -69,7 +69,7 @@
    - Configure programming options.
    - Click **Start** to begin programming.
 
-   ![Program Data to Target Chip with SPI Interface](media/nu-link3/image88.png)
+   ![Program Data to Target Chip with SPI Interface](../../../media/nu-link3/image88.png)
    
    *Figure: Program Data to Target Chip with SPI Interface*
 

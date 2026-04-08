@@ -10,7 +10,7 @@ The Nu-Link3-Pro will automatically run the `MAIN.PY` file from the microSD card
 
 [Sample code for offline ISP](../../Scripts/Nu-Link3-Pro/MicroPythonOfflineISP/MAIN.PY)
 
-![nulink3-MPY](media/nu-link3/nulink3-MPY.png)
+![nulink3-MPY](../../media/nu-link3/nulink3-MPY.png)
 
 
 | Nu-Link3-Pro Support | Standard Library | Description                              |
