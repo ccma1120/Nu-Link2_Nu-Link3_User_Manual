@@ -36,7 +36,7 @@ jobs:
             -V geometry:margin=1in \
             --toc \
             --number-sections \
-            --resource-path=.:..:../..:../../..
+            --resource-path=.:..:../..:../../.. \
             --include-before-body=cover.tex
 
       - name: Upload PDF Artifact
