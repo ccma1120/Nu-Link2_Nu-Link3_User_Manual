@@ -57,5 +57,5 @@ jobs:
           tag: "latest"
           name: "Nu-Link2 and Nu-Link3 User Manual"
           body: "Auto updated"
-          artifacts: "Nu-Link2_Nu-Link3_User_Manual.pdf"
+          artifacts: "**/*.pdf"
           makeLatest: true
