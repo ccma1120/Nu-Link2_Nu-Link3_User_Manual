@@ -21,15 +21,16 @@ jobs:
           sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra texlive-lang-chinese
           sudo apt-get install -y fonts-noto-cjk
 
-# 轉換 Markdown 為 PDF
+
+      # 轉換 Markdown 為 PDF
       - name: Convert with Pandoc
         run: |
           cd Documents/Nu-Link3-Pro_User_Manual
           
-          # ⚠️ 關鍵修改：把 `find .` 改成 `find doc`
           FILES=$(find docs -type f -name "*.md" | sort)
           
-          pandoc $FILES \
+          # 加上 sed 修復圖片路徑，並保持完美的換行排版 (這裡的 \ 後面已經完全沒有空白了)
+          cat $FILES | sed -E 's|(\.\./)+media|media|g' | pandoc \
             -o ../../Nu-Link3-Pro_User_Manual.pdf \
             --pdf-engine=xelatex \
             -V CJKmainfont="Noto Sans CJK TC" \
@@ -38,7 +39,7 @@ jobs:
             --number-sections \
             --resource-path=.:..:../..:../../.. \
             --include-before-body=cover.tex
-
+            
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
