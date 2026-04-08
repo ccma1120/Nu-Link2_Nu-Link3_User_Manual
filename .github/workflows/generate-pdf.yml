@@ -49,13 +49,13 @@ jobs:
           name: Nu-Link3-Pro_User_Manual_Pandoc
           path: Nu-Link3-Pro_User_Manual.pdf
 
-      # 建立或更新一個名為 "latest" 的滾動發布
+      
       - name: Update Latest Release
         uses: ncipollo/release-action@v1
         with:
-          allowUpdates: true # 允許覆蓋舊檔，這是核心魔法！
+          allowUpdates: true 
           tag: "latest"
-          name: "Latest PDF (Auto-updated)"
-          body: "這是一份會隨著程式碼自動更新的最新版 PDF 手冊。"
+          name: "Nu-Link2 and Nu-Link3 User Manual"
+          body: "Auto updated"
           artifacts: "Nu-Link2_Nu-Link3_User_Manual.pdf"
           makeLatest: true
