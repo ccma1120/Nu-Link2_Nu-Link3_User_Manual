@@ -28,10 +28,8 @@ jobs:
           # 抓取 docs 資料夾
           FILES=$(find docs -type f -name "*.md" | sort)
           
-          # 【關鍵修正】：將所有指令寫在同一行，徹底避免換行空白 Bug！
-          # 並且加入了 -V mainfont="DejaVu Sans" 來解決特殊符號消失的問題
-          cat $FILES | sed -E 's|(\.\./)+media|media|g' | pandoc -o ../../Nu-Link3-Pro_User_Manual.pdf --pdf-engine=xelatex -V mainfont="DejaVu Sans" -V CJKmainfont="Noto Sans CJK TC" -V geometry:margin=1in --toc --number-sections --resource-path=.:..:../..:../../.. --include-before-body=cover.tex
-
+          (for f in $FILES; do cat "$f"; echo -e "\n\n"; done) | sed -E 's|(\.\./)+media|media|g' | pandoc -o ../../Nu-Link3-Pro_User_Manual.pdf --pdf-engine=xelatex -V mainfont="DejaVu Sans" -V CJKmainfont="Noto Sans CJK TC" -V geometry:margin=1in --toc --number-sections --resource-path=.:..:../..:../../.. --include-before-body=cover.tex
+          
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
