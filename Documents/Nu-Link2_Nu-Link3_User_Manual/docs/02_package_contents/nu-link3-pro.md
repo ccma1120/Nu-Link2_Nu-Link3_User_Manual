@@ -13,7 +13,7 @@ The Nu-Link3-Pro full package contains:
 - SWD cable (100-mil 10-pin squid cable with 10 x 100-mil sockets)
 - Bridge cable (100-mil 20-pin squid cable with 20 x 100-mil sockets)
 
----
+
 
 ### Nu-Link3-Pro PCBA
 
@@ -44,7 +44,6 @@ The following lists components and connectors from the rear view:
 
 - Function Switch (Reserved)
 
----
 
 ### Nu-Link3-Pro Connectors
 
@@ -90,9 +89,8 @@ Start Button (SW1)
 Status LED (ICES0, ICES1, ICES2, ICES3)
 - Display the operation status of the Nu-Link3-Pro
 
----
 
-### Status LEDs
+Status LEDs
 
 | Nu-Link3-Pro Operation Status | ICE | ICP | Red | Green |
 |-------------------------------|:---:|:---:|:---:|:-----:|
@@ -106,4 +104,4 @@ Status LED (ICES0, ICES1, ICES2, ICES3)
 | Offline Programming Completed (Auto mode) | On | On | - | - |
 | Offline Programming Failed | On | Flash | - | - |
 
-*Table: Status LEDs Difference List*
+*Table: Comparison of Status LED Indicators*

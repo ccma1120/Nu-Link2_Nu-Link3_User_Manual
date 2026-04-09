@@ -110,9 +110,7 @@ following lists of function brief description
 
   - Save bin file for ICP Offline Programming
 
-- Status LED (ICES0, ICES1, ICES2, ICES3)
-
-  - Display the operation status of the Nu-Link2-Pro
+Status LED (ICES0, ICES1, ICES2, ICES3)
 
 | **Nu-Link2-Pro Operation Status** | **Status LED** |  |  |  |
 |----|:--:|:--:|:--:|:--:|
@@ -127,7 +125,7 @@ following lists of function brief description
 | Offline Programming Completed (Auto mode) | On | On | \- | \- |
 | Offline Programming Failed | On | Flash | \- | \- |
 
-Table: Status LEDs Difference List
+*Table: Comparison of Status LED Indicators*
 
 
 
