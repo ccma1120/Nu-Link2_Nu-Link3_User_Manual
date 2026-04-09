@@ -15,9 +15,9 @@ The Nu-Link3-Pro full package contains:
 
 ---
 
-## Nu-Link3-Pro PCBA
+### Nu-Link3-Pro PCBA
 
-### Front View
+#### Front View
 
 ![Front View of Nu-Link3-Pro PCBA](../../media/nu-link3/image3.png)
 
@@ -34,7 +34,7 @@ The following lists components and connectors from the front view:
 - Start Button
 - ETM Connector
 
-### Rear View
+#### Rear View
 
 ![Rear View of Nu-Link3-Pro PCBA](../../media/nu-link3/image4.png)
 
@@ -46,13 +46,13 @@ The following lists components and connectors from the rear view:
 
 ---
 
-## Nu-Link3-Pro Connectors
+### Nu-Link3-Pro Connectors
 
 ![Nu-Link3-Pro Connector and Function Overview](../../media/nu-link3/image5.png)
 
 *Figure: Nu-Link3-Pro Connector and Function Overview*
 
-### Connectors and Functions
+#### Connectors and Functions
 
 USB Type-C Connector (J2)
 - USB Type-C port of a PC to debug and program target chips through the development software tool
@@ -92,7 +92,7 @@ Status LED (ICES0, ICES1, ICES2, ICES3)
 
 ---
 
-## Status LEDs
+### Status LEDs
 
 | Nu-Link3-Pro Operation Status | ICE | ICP | Red | Green |
 |-------------------------------|:---:|:---:|:---:|:-----:|
