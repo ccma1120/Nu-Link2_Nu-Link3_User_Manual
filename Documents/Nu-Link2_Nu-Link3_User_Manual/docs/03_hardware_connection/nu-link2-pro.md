@@ -9,7 +9,7 @@ for debugger and programmer.
 
 ![](../../media/nu-link2/image6.png)
 
-#### Figure: Pin Definition of Nu-Link2-Pro Connectors
+Figure: Pin Definition of Nu-Link2-Pro Connectors
 
 ## SWD Interface
 
@@ -32,7 +32,7 @@ SWD interface pin and the connection of each function.
 | GND | CON4.9 | Ground |
 | FAIL/TX | CON4.10 | “FAIL” is Control Bus signals for IC Programmer. For details, please refer to section 6.3. |
 
-#### Table: SWD Interface Pin Definition and Description
+Table: SWD Interface Pin Definition and Description
 
 ### ICE Programming Connection
 
@@ -44,7 +44,7 @@ corresponding to the target board.
 
 ![](../../media/nu-link2/image7.png)
 
-#### Figure: SWD Interface Connection Diagram for ICE
+Figure: SWD Interface Connection Diagram for ICE
 
 | **Pin Name** | **Pin Number** | **Pin Corresponding to the Target Board** |
 |--------------|----------------|:------------------------------------------|
@@ -54,7 +54,7 @@ corresponding to the target board.
 | /RESET       | CON4.7         | /RESET                                    |
 | VSS(GND)     | CON4.9         | VSS(GND)                                  |
 
-#### Table: SWD Interface Corresponding Pin for ICE
+Table: SWD Interface Corresponding Pin for ICE
 
 ### Virtual COM Connection 
 
@@ -66,7 +66,7 @@ VCOM and the following table shows the pin corresponding to the target board.
 
 ![](../../media/nu-link2/image8.png)
 
-#### Figure: SWD Interface Connection Diagram for Virtual COM
+Figure: SWD Interface Connection Diagram for Virtual COM
 
 | **Pin Name** | **Pin Number** | **Pin Corresponding to the Target Board** |
 |--------------|----------------|:------------------------------------------|
@@ -75,7 +75,7 @@ VCOM and the following table shows the pin corresponding to the target board.
 | VSS(GND)     | CON4.9         | VSS(GND)                                  |
 | FAIL/TX      | CON4.10        | UART_TX                                   |
 
-#### Table: SWD Interface Corresponding Pin for Virtual COM
+Table: SWD Interface Corresponding Pin for Virtual COM
 
 ### Automatic IC Programming Connection
 
@@ -88,7 +88,7 @@ to the target board.
 
 ![](../../media/nu-link2/image9.png)
 
-#### Figure: SWD Interface Connection Diagram for Automatic IC Programming
+Figure: SWD Interface Connection Diagram for Automatic IC Programming
 
 | Pin Name | Pin Number | Pin Corresponding to the Target Board |
 |----|----|----|
@@ -100,7 +100,7 @@ to the target board.
 | FAIL | CON4.10 | FAIL |
 
 
-#### Table: SWD Interface Corresponding Pin for Automatic IC Programming
+Table: SWD Interface Corresponding Pin for Automatic IC Programming
 
 ## Bridge Interface
 
@@ -134,7 +134,7 @@ pin and the connection of each function.
 | GPIO1 | CON6.19 | General Purpose I/O 1 |
 | GND | CON6.20 | Ground |
 
-#### Table: Bridge Interface Pin Definition and Description
+Table: Bridge Interface Pin Definition and Description
 
 ### UART Connection
 
@@ -147,7 +147,7 @@ board.
 
 ![](../../media/nu-link2/image10.png)
 
-#### Figure: Bridge Interface Connection Diagram for UART
+Figure: Bridge Interface Connection Diagram for UART
 
 | Pin Name | Pin Number | Pin Corresponding to the Target Board |
 |----|----|----|
@@ -159,7 +159,7 @@ board.
 | VSS(GND) | CON6.20 | VSS(GND) |
 
 
-#### Table: Bridge Interface Corresponding Pin for UART
+Table: Bridge Interface Corresponding Pin for UART
 
 ### I2C Connection
 
@@ -174,7 +174,7 @@ the target board. Click for further bridge information:
 
 ![](../../media/nu-link2/image11.png)
 
-#### Figure: Bridge Interface Connection Diagram for I2C
+Figure: Bridge Interface Connection Diagram for I2C
 
 | Pin Name | Pin Number | Pin Corresponding to the Target Board |
 |----|----|----|
@@ -186,7 +186,7 @@ the target board. Click for further bridge information:
 | VSS(GND) | CON6.20 | VSS(GND) |
 
 
-#### Table: Bridge Interface Pin for I2C
+Table: Bridge Interface Pin for I2C
 
 ### SPI Connection
 
@@ -201,7 +201,7 @@ target board. Click for further bridge information:
 
 ![](../../media/nu-link2/image12.png)
 
-#### Figure: Bridge Interface Connection Diagram for SPI
+Figure: Bridge Interface Connection Diagram for SPI
 
 | **Pin Name** | **Pin Number** | **Pin Corresponding to the Target Board** |
 |----|----|:---|
@@ -215,7 +215,7 @@ target board. Click for further bridge information:
 | VSS (GND) | CON6.20 | VSS (GND) |
 | **Note:** The target board power and signal only support 3.3 V at Nu-Link2-Pro Bridge interface. |  |  |
 
-#### Table: Bridge Interface Corresponding Pin for SPI
+Table: Bridge Interface Corresponding Pin for SPI
 
 ### RS-485 Connection
 
@@ -230,7 +230,7 @@ for further bridge information:
 
 ![](../../media/nu-link2/image13.png)
 
-#### Figure: Bridge Interface Connection Diagram for RS-485
+Figure: Bridge Interface Connection Diagram for RS-485
 
 | Pin Name | Pin Number | Pin Corresponding to the Target Board |
 |----|----|----|
@@ -242,7 +242,7 @@ for further bridge information:
 | VSS(GND) | CON6.20 | VSS(GND) |
 
 
-#### Table: Bridge Interface Corresponding Pin for RS-485
+Table: Bridge Interface Corresponding Pin for RS-485
 
 ### CAN BUS Connection
 
@@ -255,7 +255,7 @@ board.
 
 ![](../../media/nu-link2/image14.png)
 
-#### Bridge Interface Connection Diagram for CAN BUS
+Bridge Interface Connection Diagram for CAN BUS
 
 | Pin Name | Pin Number | Pin Corresponding to the Target Board |
 |----|----|----|
@@ -267,7 +267,7 @@ board.
 | VSS(GND) | CON6.20 | VSS(GND) |
 
 
-#### Bridge Interface Corresponding Pin for CAN BUS
+Bridge Interface Corresponding Pin for CAN BUS
 
 ### PWM and Capture
 
@@ -279,7 +279,7 @@ pin corresponding to the target board.
 
 ![](../../media/nu-link2/image15.png)
 
-#### Bridge Interface Connection Diagram for PWM
+Bridge Interface Connection Diagram for PWM
 
 | Pin Name | Pin Number | Pin Corresponding to the Target Board |
 |----|----|----|
@@ -290,7 +290,7 @@ pin corresponding to the target board.
 | VSS(GND) | CON6.20 | VSS(GND) |
 
 
-#### Bridge Interface Corresponding Pin for PWM
+Bridge Interface Corresponding Pin for PWM
 
 ### ADC Connection
 
@@ -302,7 +302,7 @@ pin corresponding to the target board.
 
 ![](../../media/nu-link2/image16.png)
 
-#### Bridge Interface Connection Diagram for ADC
+Bridge Interface Connection Diagram for ADC
 
 | Pin Name | Pin Number | Pin Corresponding to the Target Board |
 |----|----|----|
@@ -313,7 +313,7 @@ pin corresponding to the target board.
 | VSS (GND) | CON6.20 | VSS (GND) |
 
 
-#### Bridge Interface Corresponding Pin for ADC
+Bridge Interface Corresponding Pin for ADC
 
 ### GPIO Connection
 
@@ -325,7 +325,7 @@ the following table shows the pin corresponding to the target board.
 
 ![](../../media/nu-link2/image17.png)
 
-#### Bridge Interface Connection Diagram for GPIO
+Bridge Interface Connection Diagram for GPIO
 
 | Pin Name | Pin Number | Pin Corresponding to the Target Board |
 |----|----|----|
@@ -337,7 +337,7 @@ the following table shows the pin corresponding to the target board.
 | VSS(GND) | CON6.20 | VSS(GND) |
 
 
-#### Bridge Interface Corresponding Pin for GPIO
+Bridge Interface Corresponding Pin for GPIO
 
 ### LIN Connection
 
@@ -349,7 +349,7 @@ pin corresponding to the target board.
 
 ![](../../media/nu-link2/image18.png)
 
-#### Figure: Bridge Interface Connection Diagram for LIN
+Figure: Bridge Interface Connection Diagram for LIN
 
 | Pin Name | Pin Number | Pin Corresponding to the Target Board |
 |----|----|----|
@@ -361,7 +361,7 @@ pin corresponding to the target board.
 | VSS(GND) | CON6.20 | VSS(GND) |
 
 
-#### Table: Bridge Interface Corresponding Pin for LIN
+Table: Bridge Interface Corresponding Pin for LIN
 
 ## ETM Interface
 
@@ -394,7 +394,7 @@ connection of each function.
 | GND | CON3.19 | Ground |
 | TRACEDATA\[3\] | CON3.20 | ETM trace data output pin. |
 
-#### Table: ETM Interface Pin Definition and Description
+Table: ETM Interface Pin Definition and Description
 
 ### SWD Connection
 
@@ -406,7 +406,7 @@ an error will occur.
 
 ![](../../media/nu-link2/image19.png)
 
-#### Figure: ETM Interface Connection Diagram for SWD and ETM Function
+Figure: ETM Interface Connection Diagram for SWD and ETM Function
 
 ### ETM Connection
 
@@ -425,7 +425,7 @@ of reading from these three storage is USB Flash drive \> Micro SD card
 
 ![](../../media/nu-link2/image20.png)
 
-#### Figure: ICP Offline Programming Illustration of SWD Interface
+Figure: ICP Offline Programming Illustration of SWD Interface
 
 
 

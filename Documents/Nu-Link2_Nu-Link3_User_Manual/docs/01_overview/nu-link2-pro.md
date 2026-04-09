@@ -83,7 +83,7 @@ For Windows operating systems, please download and install the [Nu-Link_USB_Driv
 
 ### Nu-Link2-Pro Firmware
 
-#### Download the latest firmware from the [Releases page](https://github.com/OpenNuvoton/Nuvoton_Tools/releases).
+Download the latest firmware from the [Releases page](https://github.com/OpenNuvoton/Nuvoton_Tools/releases).
 
 Users can reprogram Nu-Link2-Pro with another .bin file using the following instructions (Windows OS):
 
@@ -131,21 +131,21 @@ Users can reprogram Nu-Link2-Pro with another .bin file using the following inst
 - [ICP_Library for Nu-Link2 family](https://github.com/OpenNuvoton/NuLink2_ICP_Library)
 
 
-#### Comparison of Nu-Link2 and DAPLink
+Comparison of Nu-Link2 and DAPLink
 
-##### Nu-Link2
+Nu-Link2
 
 - Proprietary code
 - Supports NuMicro 8051, offline programming, encryption during data transmission, unlimited flash breakpoints, NuMicro chip-specific features (config0/config1 dataflash setting, KPROM, etc.)
 - USB interfaces: MSC/VCOM/HID_ICE (proprietary commands) or CMSIS-DAPv2 WinUSB + WebUSB CMSIS-DAP/VCOM_Nu-Link2-Bridge or HID_ISP (defined by BRIDGE-MODE in NU_CFG.TXT)
 
-##### DAPLink
+DAPLink
 
 - Open source: [DAPLink for Nu-Link2 family](https://github.com/OpenNuvoton/DapLink)
 - Supports many third-party IDEs
 - USB interfaces: MSC/CDC/CMSIS-DAPv2 WinUSB/WebUSB CMSIS-DAP
 
-##### CMSIS_DAP
+CMSIS_DAP
 
 - Open source: [CMSIS_DAP for Nu-Link2 family](https://github.com/OpenNuvoton/NuLink2_CMSIS_DAP)
 - Supports many third-party IDEs

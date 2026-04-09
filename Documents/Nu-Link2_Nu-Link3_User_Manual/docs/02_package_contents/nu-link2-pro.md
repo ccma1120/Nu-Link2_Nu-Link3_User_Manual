@@ -3,7 +3,6 @@
 
 ![](../../media/nu-link2/image2.png)
 
-#### Figure: Nu-Link2-Pro Full Package Contents
 
 Figure: shows the contents of Nu-Link2-Pro full package:
 
@@ -20,8 +19,6 @@ Figure: shows the contents of Nu-Link2-Pro full package:
 ## Board Overview
 
 ![](../../media/nu-link2/image3.png)
-
-#### Figure: Front View of Nu-Link2-Pro PCBA
 
 Figure: shows the main components and connectors from the front
 side of Nu-Link2-Pro PCBA.
@@ -46,8 +43,6 @@ The following lists components and connectors from the front view:
 
 ![](../../media/nu-link2/image4.png)
 
-#### Figure: Rear View of Nu-Link2-Pro PCBA
-
 Figure: shows the main components and connectors from the rear side
 of Nu-Link2-Pro PCBA.
 
@@ -60,8 +55,6 @@ The following lists components and connectors from the rear view:
 ## Hardware Overview
 
 ![](../../media/nu-link2/image5.png)
-
-#### Figure: Nu-Link2-Pro Connector and Function Overview
 
 Figure: shows the Nu-Link2-Pro profile and connector overview, the
 following lists of function brief description

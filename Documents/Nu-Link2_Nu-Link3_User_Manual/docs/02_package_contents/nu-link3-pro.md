@@ -54,10 +54,10 @@ The following lists components and connectors from the rear view:
 
 ### Connectors and Functions
 
-#### USB Type-C Connector (J2)
+USB Type-C Connector (J2)
 - USB Type-C port of a PC to debug and program target chips through the development software tool
 
-#### Bridge Connector (CON6)
+Bridge Connector (CON6)
 - UART (Used for Offline ISP)
 - I3C Transmission Interface
 - SPI Transmission Interface
@@ -68,26 +68,26 @@ The following lists components and connectors from the rear view:
 - ADC
 - GPIO
 
-#### SWD Connector (CON4)
+SWD Connector (CON4)
 - SWD Host Interface
 - ICP Offline Programming
 - Virtual COM by UART (Used for Online ISP)
 - Automatic IC Programming
 
-#### ETM Connector (CON3)
+ETM Connector (CON3)
 - ETM Interface
 - SWD Host Interface
 
-#### USB Connector (CON5)
+USB Connector (CON5)
 - USB Flash Drive for ICP Offline Programming
 
-#### Micro SD Card Slot
+Micro SD Card Slot
 - Save bin file for ICP Offline Programming
 
-#### Start Button (SW1)
+Start Button (SW1)
 - Click this button to proceed with offline programming
 
-#### Status LED (ICES0, ICES1, ICES2, ICES3)
+Status LED (ICES0, ICES1, ICES2, ICES3)
 - Display the operation status of the Nu-Link3-Pro
 
 ---
