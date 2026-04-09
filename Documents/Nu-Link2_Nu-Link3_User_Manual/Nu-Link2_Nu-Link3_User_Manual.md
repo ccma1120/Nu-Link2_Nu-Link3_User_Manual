@@ -23,7 +23,7 @@
 
 ### [Chapter 4: Debugging](docs/04_debugging/00_index.md)
 
-- [4.1 Keil MDK](docs/04_debugging/keil_mdk.md)
+- [4.1 Keil MDK](docs/04_debugging/01_keil_mdk.md)
 - [4.2 IAR EWARM](docs/04_debugging/iar_ewarm.md)
 - [4.3 Visual Studio Code](docs/04_debugging/vscode.md)
 
