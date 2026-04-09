@@ -30,11 +30,11 @@
 ### [Chapter 5: Programming](docs/05_programming/00_index.md)
 
 - [5.1 ICP Programming Tool](docs/05_programming/01_icp_tool/00_index.md)
-  - [5.1.1 Online ICP Programming](docs/05_programming/01_icp_tool/online.md)
-  - [5.1.2 Offline ICP Programming](docs/05_programming/01_icp_tool/offline.md)
+  - [5.1.1 Online ICP Programming](docs/05_programming/01_icp_tool/01_online.md)
+  - [5.1.2 Offline ICP Programming](docs/05_programming/01_icp_tool/02_offline.md)
 - [5.2 ISP Programming Tool](docs/05_programming/02_isp_tool/00_index.md)
-  - [5.2.1 Online ISP Programming](docs/05_programming/02_isp_tool/online.md)
-  - [5.2.2 Offline ISP Programming](docs/05_programming/02_isp_tool/offline.md)
+  - [5.2.1 Online ISP Programming](docs/05_programming/02_isp_tool/01_online.md)
+  - [5.2.2 Offline ISP Programming](docs/05_programming/02_isp_tool/02_offline.md)
 - [5.3 Drag-n-Drop Programming](docs/05_programming/drag_drop.md)
 
 ### [Chapter 6: Additional Features](docs/06_additional_features/00_index.md)
