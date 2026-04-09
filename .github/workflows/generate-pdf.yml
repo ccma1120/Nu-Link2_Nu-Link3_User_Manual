@@ -27,7 +27,7 @@ jobs:
 
       - name: Inject Page Break before Overview
         run: |
-          sed -i 's/^# Overview/\\newpage\n\n# Overview/g' Nu-Link3-Pro_User_Manual.md
+          sed -i 's/^# Overview/\\newpage\n\n# Overview/g' Nu-Link2_Nu-Link3_User_Manual.md
           
       - name: Install Pandoc & LaTeX & CJK Fonts
         env:
@@ -49,8 +49,8 @@ jobs:
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Nu-Link3-Pro_User_Manual_Pandoc
-          path: Nu-Link3-Pro_User_Manual.pdf
+          name: Nu-Link2_Nu-Link3_User_Manual_Pandoc
+          path: Nu-Link2_Nu-Link3_User_Manual.pdf
 
       
       - name: Update Latest Release
