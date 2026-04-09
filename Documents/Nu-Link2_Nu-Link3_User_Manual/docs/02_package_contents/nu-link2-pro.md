@@ -16,7 +16,7 @@ Figure: shows the contents of Nu-Link2-Pro full package:
 
 - Bridge cable (100-mil 20-pin squid cable with 20 x 100-mil sockets)
 
-## Board Overview
+### Nu-Link2-Pro PCBA
 
 ![](../../media/nu-link2/image3.png)
 
@@ -52,7 +52,7 @@ The following lists components and connectors from the rear view:
   by IT department, user can disable Nu-Link2-Pro mass storage function
   by switch \#4 after firmware version 7246)
 
-## Hardware Overview
+### Nu-Link2-Pro Connectors
 
 ![](../../media/nu-link2/image5.png)
 
