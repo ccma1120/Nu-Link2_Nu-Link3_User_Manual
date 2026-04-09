@@ -1,5 +1,5 @@
 
-## Package Contents
+## Nu-Link3-Pro Package Contents
 
 ![Nu-Link3-Pro Package Contents](../../media/nu-link3/image2.png)
 
@@ -46,7 +46,7 @@ The following lists components and connectors from the rear view:
 
 ---
 
-## Nu-Link3-Pro Overview
+## Nu-Link3-Pro Connectors
 
 ![Nu-Link3-Pro Connector and Function Overview](../../media/nu-link3/image5.png)
 

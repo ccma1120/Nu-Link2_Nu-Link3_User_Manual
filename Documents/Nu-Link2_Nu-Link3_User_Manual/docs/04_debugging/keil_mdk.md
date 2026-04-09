@@ -1,4 +1,4 @@
-# Keil MDK
+## Keil MDK
 
 **Prerequisites:**
 
@@ -7,7 +7,7 @@
 
 ---
 
-## Debugger Settings
+### Debugger Settings
 
 1. **Open the Project:** Double-click the **Template.uvproj** file to launch the project.
 
@@ -38,7 +38,7 @@
    
 ---
 
-## Programmer Settings
+### Programmer Settings
 
 5. **Select Flash Driver:** Navigate to **Project → Options for Target → Utilities**. Ensure **Use Target Driver for Flash Programming** is enabled and select **Nuvoton Nu-Link Debugger** from the drop-down menu. Additionally, check the **Update Target before Debugging** option.
 
@@ -66,7 +66,7 @@
 
 ---
 
-## ETM Trace Settings (Nu-Link2-Pro and Nu-Link3-Pro)
+### ETM Trace Settings (Nu-Link2-Pro and Nu-Link3-Pro)
 
 To enable **Embedded Trace Macrocell (ETM)** tracing on Nuvoton Cortex®-M4, M23, M33 and M55 devices, connect the device using the **Nu-Link2-Pro** and **Nu-Link3-Pro** with a 20-pin connector and follow these steps:
 
@@ -95,7 +95,7 @@ To enable **Embedded Trace Macrocell (ETM)** tracing on Nuvoton Cortex®-M4, M23
 
 ---
 
-## Debug Mode
+### Debug Mode
 
 The Nu-Link supports debugging for NuMicro® Family chips via the SWD interface. This section covers the primary debug features available in Keil MDK.
 
@@ -107,7 +107,7 @@ The Nu-Link supports debugging for NuMicro® Family chips via the SWD interface.
 
 *Table: Debug Mode Features*
 
-### Breakpoints
+#### Breakpoints
 
 Breakpoints allow you to pause program execution at specific lines of code. During real-time simulation, the chip will halt at each breakpoint, enabling you to inspect variables, registers, and program state.
 
@@ -120,7 +120,7 @@ Breakpoints allow you to pause program execution at specific lines of code. Duri
 
 *Figure: Setting Breakpoints in Keil MDK Debug Mode*
 
-### System Viewer
+#### System Viewer
 
 The System Viewer displays peripheral register contents and allows real-time manipulation. This is useful for debugging hardware configurations and peripheral states.
 
@@ -141,7 +141,7 @@ The System Viewer displays peripheral register contents and allows real-time man
 
 *Figure: System Viewer Register Details in Keil MDK Debug Mode*
 
-### Semihost
+#### Semihost
 
 Semihost enables debug message output through the debugger interface, eliminating the need for a physical UART connection. Messages from the microcontroller are redirected to the Keil MDK debug window via the Nu-Link.
 

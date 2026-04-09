@@ -1,5 +1,5 @@
 
-## Package Contents
+## Nu-Link2-Pro Package Contents
 
 ![](../../media/nu-link2/image2.png)
 

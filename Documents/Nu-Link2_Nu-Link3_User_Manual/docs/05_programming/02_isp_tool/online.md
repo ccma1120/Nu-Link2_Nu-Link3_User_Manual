@@ -1,6 +1,6 @@
 
 
-## Installation and Interface Selection
+### Installation and Interface Selection
 
 1. **Installation:** Download and install the latest [Nuvoton NuMicro® ISP Programming Tool](https://www.nuvoton.com/tool-and-software/software-tool/programmer-tool/).
 
@@ -18,7 +18,7 @@
 
 ---
 
-## Hardware Connection
+### Hardware Connection
 
 4. Connect the Nu-Link to the target chip based on the selected interface. For detailed pin definitions and connection diagrams, please refer to:
    - **Nu-Link2-Pro**: [Bridge Interface](../../03_hardware_connection/nu-link2-pro.md#bridge-interface)
@@ -26,7 +26,7 @@
 
 ---
 
-## Prepare Target Firmware
+### Prepare Target Firmware
 
 1. The target chip must be running specific ISP bootloader firmware:
    - Download the BSP for your specific chip from [GitHub](https://github.com/OpenNuvoton/) or [Gitee](https://gitee.com/OpenNuvoton/).
@@ -47,7 +47,7 @@
 
 ---
 
-## Establish Connection and Program
+### Establish Connection and Program
 
 1. **Establish Connection:**
    - Return to the ISP Tool on your PC.

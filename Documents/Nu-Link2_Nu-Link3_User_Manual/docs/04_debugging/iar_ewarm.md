@@ -1,4 +1,4 @@
-# IAR EWARM
+## IAR EWARM
 
 **Prerequisites:**
 
@@ -7,7 +7,7 @@
 
 ---
 
-## Project Settings
+### Project Settings
 
 1. Open IAR EWARM, and open the project to be configured.
 
@@ -19,7 +19,7 @@
 
 ---
 
-## Debugger and Programmer Settings
+### Debugger and Programmer Settings
 
 3. In the **Setup** tab of the **Debugger** page, select **Third-Party Driver** as the driver.
 
@@ -41,7 +41,7 @@
 
 ---
 
-## Driver Plugin File Settings
+### Driver Plugin File Settings
 
 6. In the **Third-Party Driver** page, specify the path of the IAR debugger driver plugin `C:\Program Files\Nuvoton Tools\Nu-Link_IAR\Nu-Link_IAR.dll`.
 
@@ -59,7 +59,7 @@
 
 ---
 
-## Compile and Debug
+### Compile and Debug
 
 9. After successfully compiling the project, download code to the flash memory and enter debug mode.
 

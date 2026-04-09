@@ -1,6 +1,6 @@
-# Offline ICP Programming
+## Offline ICP Programming
 
-## Overview
+### Overview
 
 Offline Programming means that the Nu-Link can update the firmware without accessing software programs. Offline programming is useful for mass production since the original code or firmware file does not need to be delivered and only the Nu-Link is needed for mass production.
 
@@ -12,7 +12,7 @@ In addition, the Nu-Link supports "Limited Offline Programming," which can effec
 
 ---
 
-## Offline Data Storage Options
+### Offline Data Storage Options
 
 Nu-Link has three interfaces to download the offline data for offline download:
 
@@ -32,7 +32,7 @@ Nu-Link has three interfaces to download the offline data for offline download:
 
 ---
 
-## ICP Offline Programming and Auto Mode Steps
+### ICP Offline Programming and Auto Mode Steps
 
 This section describes how to use Nu-Link for automatic offline programming.
 
@@ -86,7 +86,7 @@ This section describes how to use Nu-Link for automatic offline programming.
 
 ---
 
-## Wide Voltage Programming
+### Wide Voltage Programming
 
 The Nu-Link-Pro family supports the wide voltage programming function for offline programming. The development software tool can adjust the SWD port voltage as 1.8 V, 2.5 V, 3.3 V, or 5.0 V. The pins that can be controlled include VCC, ICE_DAT, ICE_CLK, and /RESET.
 
@@ -94,7 +94,7 @@ The Nu-Link-Pro family supports the wide voltage programming function for offlin
 
 ---
 
-## Software Serial Number (SN)
+### Software Serial Number (SN)
 
 The Software Serial Number (SN) function provided by the ICP Tool enables users to specify the value in the "Increase SN from" and "Write address in flash" fields for the target chip during offline programming.
 

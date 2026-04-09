@@ -131,7 +131,7 @@ Users can reprogram Nu-Link2-Pro with another .bin file using the following inst
 - [ICP_Library for Nu-Link2 family](https://github.com/OpenNuvoton/NuLink2_ICP_Library)
 
 
-Comparison of Nu-Link2 and DAPLink
+### Comparison of Nu-Link2 and DAPLink
 
 Nu-Link2
 

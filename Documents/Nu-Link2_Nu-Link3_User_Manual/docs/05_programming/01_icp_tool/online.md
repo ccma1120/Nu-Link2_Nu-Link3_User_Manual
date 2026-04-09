@@ -1,4 +1,4 @@
-# Online ICP Programming
+## Online ICP Programming
 
 Online Programming means that the Nu-Link family can download the firmware to the target chip through software programs.
 
@@ -8,7 +8,7 @@ Online Programming means that the Nu-Link family can download the firmware to th
 
 ---
 
-## Installation and Launch
+### Installation and Launch
 
 1. **Installation:** Download and install the latest version of the **Nuvoton NuMicro® ICP Programming Tool** from the [official website](https://www.nuvoton.com/tool-and-software/software-tool/programmer-tool/).
 
@@ -26,7 +26,7 @@ Online Programming means that the Nu-Link family can download the firmware to th
 
 ---
 
-## Establishing Connection
+### Establishing Connection
 
 4. **Click the Connect button.** If multiple Nu-Link adapters are connected to the host, proceed to step 5. If only one Nu-Link is connected, skip to step 6.
 
@@ -38,7 +38,7 @@ Online Programming means that the Nu-Link family can download the firmware to th
 
 ---
 
-## Configure Programming Options
+### Configure Programming Options
 
 6. **Open Programming Options:** Click the **Option** button within the "Programming" section to open the **Program Option** dialog box.
 
@@ -62,7 +62,7 @@ Online Programming means that the Nu-Link family can download the firmware to th
 
 ---
 
-## Execute Programming
+### Execute Programming
 
 10. **File Selection:** Select the desired **.bin** file(s) for the APROM or LDROM sections. Ensure you check the corresponding tick boxes for the memory locations you intend to program.
 
@@ -80,13 +80,13 @@ Online Programming means that the Nu-Link family can download the firmware to th
 
 ---
 
-## Wide Voltage Programming
+### Wide Voltage Programming
 
 The Nu-Link-Pro family supports the wide voltage programming function, by which the development software tool can adjust the SWD port voltage as 1.8 V, 2.5 V, 3.3 V, or 5.0 V. The pins that can be controlled include VCC, ICE_DAT, ICE_CLK, and /RESET.
 
 ---
 
-## Software Serial Number (SN)
+### Software Serial Number (SN)
 
 The Software Serial Number (SN) function provided by the ICP Tool enables users to specify the value in the "Increase SN from" and "Write address in flash" fields for the target chip during online programming.
 

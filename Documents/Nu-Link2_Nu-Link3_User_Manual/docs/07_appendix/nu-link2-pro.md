@@ -70,7 +70,7 @@ Control Bus as Figure:.
 
 ![](../../media/nu-link2/image82.png)
 
-#### Figure: SWD Connector Pin Diagrams
+Figure: SWD Connector Pin Diagrams
 
 ### Operation Sequence and Waveform
 
