@@ -19,17 +19,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-tags: true 
-          fetch-depth: 0
-      
-      - name: Get Latest V-Tag
-        id: get_tag
-        run: |
-          LATEST_TAG=$(git describe --tags --abbrev=0 --match "V*")
-          echo "LATEST_TAG=$LATEST_TAG" >> $GITHUB_ENV
-          
-          
       - name: Cache APT Packages
         uses: actions/cache@v4
         with:
@@ -56,14 +45,17 @@ jobs:
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Nu-Link2_Nu-Link3_User_Manual_Pandoc
-          path: Nu-Link2_Nu-Link3_User_Manual.pdf
+          name: Nu-Link3-Pro_User_Manual_Pandoc
+          path: Nu-Link3-Pro_User_Manual.pdf
+
       
-      - name: Attach PDF to Current Release
+      - name: Update Latest Release
         uses: ncipollo/release-action@v1
         with:
           allowUpdates: true 
-          tag: ${{ env.LATEST_TAG }}
+          tag: "latest"
+          name: "Nu-Link2 and Nu-Link3 User Manual"
+          body: "Auto updated"
           artifacts: "**/*.pdf"
-          omitName: true
-          omitBody: true          
+          makeLatest: true
+
