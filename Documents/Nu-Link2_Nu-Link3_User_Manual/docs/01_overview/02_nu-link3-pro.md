@@ -34,23 +34,18 @@ The following diagrams illustrate the various roles Nu-Link3-Pro can play in you
 
 
 **Debugger Mode:**
-
 ![Debugger Connection](../../media/nu-link3/nulink3-ide.png)
 
 **Bridge / USB-to-Serial Mode:**
-
 ![Bridge Connection](../../media/nu-link3/nulink3-usb2serial.png)
 
 **Monitor Mode:**
-
 ![Monitor Mode](../../media/nu-link3/nulink3-usb2serial_mon.png)
 
 **PulseView Logic Analyzer:**
-
 ![PulseView](../../media/nu-link3/nulink3-pulseview.png)
 
 **ISP Programming:**
-
 ![ISP Programming](../../media/nu-link3/nulink3-isp.png)
 
 

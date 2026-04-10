@@ -1,7 +1,9 @@
 
-## Nu-Link3-Pro Operating Current of ICP
+## Nu-Link3-Pro 
 
-### Online Programming (USB Power Supply)
+### Operating Current of ICP
+
+#### Online Programming (USB Power Supply)
 
 When power is supplied via USB during ICP online programming, the operating current of Nu-Link3-Pro is shown below:
 
@@ -13,7 +15,7 @@ When power is supplied via USB during ICP online programming, the operating curr
 
 *Table: Nu-Link3-Pro Operating Current (Online Programming)*
 
-### Offline Programming - SPI Flash
+#### Offline Programming - SPI Flash
 
 When power is supplied from a target board (SWD VCC pin) during offline programming and offline file on SPI flash:
 
@@ -25,7 +27,7 @@ When power is supplied from a target board (SWD VCC pin) during offline programm
 
 *Table: Nu-Link3-Pro Operating Current (Offline Programming) of SPI Flash*
 
-### Offline Programming - USB Flash Drive
+#### Offline Programming - USB Flash Drive
 
 When power is supplied from a target board (SWD VCC pin) during offline programming and offline file on USB flash drive:
 
@@ -37,7 +39,7 @@ When power is supplied from a target board (SWD VCC pin) during offline programm
 
 *Table: Nu-Link3-Pro Operating Current (Offline Programming) of USB Flash*
 
-### Offline Programming - Micro SD Card
+#### Offline Programming - Micro SD Card
 
 When power is supplied from a target board (SWD VCC pin) during offline programming and offline file on Micro SD card:
 
@@ -49,9 +51,8 @@ When power is supplied from a target board (SWD VCC pin) during offline programm
 
 *Table: Nu-Link3-Pro Operating Current (Offline Programming) of Micro SD Card*
 
----
 
-## Nu-Link3-Pro Operating Current of ISP
+### Operating Current of ISP
 
 The operating current of Nu-Link3-Pro during ISP online programming with power supply via USB:
 
@@ -64,7 +65,7 @@ The operating current of Nu-Link3-Pro during ISP online programming with power s
 
 ---
 
-## Automatic IC Programming System
+### Automatic IC Programming System
 
 The automatic IC programming system through individual slot and the Control Bus.
 
@@ -72,7 +73,7 @@ The automatic IC programming system through individual slot and the Control Bus.
 
 *Figure: SWD Connector Pin Diagrams*
 
-### Operation Sequence and Waveform
+#### Operation Sequence and Waveform
 
 1. The Nu-Link3-Pro power on. START, BUSY, PASS, and FAIL are set to logic 1.
 

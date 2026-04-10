@@ -64,7 +64,7 @@ The Nu-Link3-Pro provides virtual COM port (VCOM) function to print out messages
 
 #### Automatic IC Programming Connection
 
-The Nu-Link3-Pro provides Automatic IC Programming function to mass production. For details about Control Bus signals, please refer to [section 7.3](../07_appendix/nu-link3-pro.md#73-automatic-ic-programming-system).
+The Nu-Link3-Pro provides Automatic IC Programming function to mass production. For details about Control Bus signals, please refer to [section 7.3](../07_appendix/02_nu-link3-pro.md#73-automatic-ic-programming-system).
 
 ![SWD Interface Connection Diagram for Automatic IC Programming](../../media/nu-link3/image9.png)
 
