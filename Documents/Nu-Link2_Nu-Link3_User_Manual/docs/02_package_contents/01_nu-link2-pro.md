@@ -1,10 +1,8 @@
 
 ## Nu-Link2-Pro Package Contents
 
-![](../../media/nu-link2/image2.png)
+![The contents of Nu-Link2-Pro full package](../../media/nu-link2/image2.png)
 
-
-Figure: shows the contents of Nu-Link2-Pro full package:
 
 - Nu-Link2-Pro main body (2952mil x 1968mil x 688mil)
 
@@ -18,10 +16,9 @@ Figure: shows the contents of Nu-Link2-Pro full package:
 
 ### Nu-Link2-Pro PCBA
 
-![](../../media/nu-link2/image3.png)
+#### Front View
+![main components and connectors from the front side](../../media/nu-link2/image3.png)
 
-Figure: shows the main components and connectors from the front
-side of Nu-Link2-Pro PCBA.
 
 The following lists components and connectors from the front view:
 
@@ -41,10 +38,8 @@ The following lists components and connectors from the front view:
 
 - ETM Connector
 
-![](../../media/nu-link2/image4.png)
-
-Figure: shows the main components and connectors from the rear side
-of Nu-Link2-Pro PCBA.
+#### Rear View
+![main components and connectors from the rear side](../../media/nu-link2/image4.png)
 
 The following lists components and connectors from the rear view:
 
@@ -54,10 +49,9 @@ The following lists components and connectors from the rear view:
 
 ### Nu-Link2-Pro Connectors
 
-![](../../media/nu-link2/image5.png)
+![Nu-Link2-Pro profile and connector overview](../../media/nu-link2/image5.png)
 
-Figure: shows the Nu-Link2-Pro profile and connector overview, the
-following lists of function brief description
+The following lists of function brief description
 
 - USB Connector (CON5)
 
@@ -110,7 +104,7 @@ following lists of function brief description
 
   - Save bin file for ICP Offline Programming
 
-Status LED (ICES0, ICES1, ICES2, ICES3)
+#### Status LED (ICES0, ICES1, ICES2, ICES3)
 
 | **Nu-Link2-Pro Operation Status** | **Status LED** |  |  |  |
 |----|:--:|:--:|:--:|:--:|

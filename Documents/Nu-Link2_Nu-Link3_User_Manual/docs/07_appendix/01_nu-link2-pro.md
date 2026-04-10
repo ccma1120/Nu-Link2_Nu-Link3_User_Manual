@@ -70,9 +70,7 @@ Table: Operating Current of ISP Online Programming
 The automatic IC programming system through individual slot and the
 Control Bus as Figure:.
 
-![](../../media/nu-link2/image82.png)
-
-Figure: SWD Connector Pin Diagrams
+![SWD Connector Pin Diagrams](../../media/nu-link2/image82.png)
 
 ### Operation Sequence and Waveform
 

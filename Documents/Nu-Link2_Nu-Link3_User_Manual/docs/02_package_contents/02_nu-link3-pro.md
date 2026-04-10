@@ -86,7 +86,7 @@ Status LED (ICES0, ICES1, ICES2, ICES3)
 - Display the operation status of the Nu-Link3-Pro
 
 
-Status LEDs
+#### Status LEDs
 
 | Nu-Link3-Pro Operation Status | ICE | ICP | Red | Green |
 |-------------------------------|:---:|:---:|:---:|:-----:|
