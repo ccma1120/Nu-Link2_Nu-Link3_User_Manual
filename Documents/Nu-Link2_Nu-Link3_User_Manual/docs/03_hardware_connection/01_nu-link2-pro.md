@@ -199,9 +199,10 @@ target board. Click for further bridge information:
 | VCC33 | CON6.16 | VCC<sup>\[1\]</sup> |
 | VSS (GND) | CON6.18 | VSS (GND) |
 | VSS (GND) | CON6.20 | VSS (GND) |
-| **Note:** The target board power and signal only support 3.3 V at Nu-Link2-Pro Bridge interface. |  |  |
 
 Table: Bridge Interface Corresponding Pin for SPI
+
+**Note:** The target board power and signal only support 3.3 V at Nu-Link2-Pro Bridge interface.
 
 #### RS-485 Connection
 

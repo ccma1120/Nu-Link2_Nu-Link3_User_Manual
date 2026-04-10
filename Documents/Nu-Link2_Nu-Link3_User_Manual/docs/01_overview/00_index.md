@@ -51,6 +51,7 @@ The table below compares the Nu-Link family of devices.
 | MicroPython | ✔ | - | - | - | - |
 
 Table: Nu-Link Family Comparison
+
 **Notes:**  
 [^1]: Nu-Link2-Pro does not support I3C or CAN FD (it only supports CAN 2.0).  
 [^2]: Voltage is adjusted by resistor ICEJPR1.  
