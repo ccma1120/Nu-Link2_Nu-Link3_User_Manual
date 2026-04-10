@@ -1,4 +1,4 @@
-## Revision History
+## Disclaimer
 
 
 **Important Notice**

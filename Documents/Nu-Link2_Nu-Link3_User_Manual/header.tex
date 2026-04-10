@@ -2,7 +2,9 @@
 \let\origfigure\figure
 \let\endorigfigure\endfigure
 \renewenvironment{figure}[1][]{%
+  \vspace{1em}%
   \origfigure[H]%
 }{%
   \endorigfigure
+  \vspace{0.5em}%
 }
