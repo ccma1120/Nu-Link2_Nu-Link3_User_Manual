@@ -178,8 +178,6 @@ This connection is also used by default for Offline ISP.
 ![ETM Interface Connection Diagram for SWD](../../media/nu-link3/image19.png)
 
 
----
-
 ### ICP Offline Programming Function Connection
 
 ![ICP Offline Programming Illustration of SWD Interface](../../media/nu-link3/image20.png)

@@ -47,7 +47,7 @@ The following is the flowchart:
 ![ISP Offline Flow](../../../media/nu-link3/nulink3-isp-offline.png)
 
 
----
+
 
 ### Configuration and Operation Notes
 
@@ -84,7 +84,7 @@ After copying the `.isp` project file to the disk, the Nu-Link automatically pro
 - **Data Updates**: To update the offline firmware or configuration, simply overwrite the existing `.isp` file on the NuMicro MCU disk with a new one. The disk will automatically remount once the update is complete.
 - **Clearing Data**: To completely remove the offline ISP data from the programmer, create a blank file named `CLR_ISP.ACT` in the root directory of the Nu-Link disk. This will trigger the internal cleanup process.
 
----
+
 
 ### Status LED Description
 
@@ -99,7 +99,7 @@ The offline LED indicator for ISP is the same as for ICP.
 
 *Table: Offline ISP LED Status*
 
----
+
 
 ### Programming Success & Failure Indicators
 

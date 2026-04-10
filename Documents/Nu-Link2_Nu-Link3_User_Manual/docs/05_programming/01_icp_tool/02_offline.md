@@ -9,7 +9,7 @@ In addition, the Nu-Link supports "Limited Offline Programming," which can effec
 ![Offline Programming Flow Diagram](../../../media/nu-link3/image28.png)
 
 
----
+
 
 ### Offline Data Storage Options
 
@@ -29,7 +29,7 @@ Nu-Link has three interfaces to download the offline data for offline download:
 2. Plug USB flash drive or SD card into Nu-Link2-Pro and Nu-Link3-Pro.
 3. Press the button on the Nu-Link2-Pro and Nu-Link3-Pro to start downloading.
 
----
+
 
 ### ICP Offline Programming and Auto Mode Steps
 
@@ -78,7 +78,7 @@ This section describes how to use Nu-Link for automatic offline programming.
 
 **Step 13:** Repeat steps 11 and 12 for automatic programming.
 
----
+
 
 ### Wide Voltage Programming
 
@@ -86,7 +86,7 @@ The Nu-Link-Pro family supports the wide voltage programming function for offlin
 
 *Table: Supported Voltage Levels*
 
----
+
 
 ### Software Serial Number (SN)
 

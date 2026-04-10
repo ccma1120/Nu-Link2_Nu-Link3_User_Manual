@@ -2,7 +2,7 @@
 
 The Nuvoton NuMicro Cortex-M Pack serves as a comprehensive development toolkit tailored for Nuvoton's NuMicro Cortex-M microcontrollers within the Visual Studio Code environment.
 
----
+
 
 ### Features
 
@@ -12,7 +12,7 @@ The Nuvoton NuMicro Cortex-M Pack serves as a comprehensive development toolkit 
 - **Debug Tools:** Included PinView and LCDView extensions facilitate peripheral debugging.
 - **Sample Code:** The pack is compatible with NuMicro BSP projects, allowing for a faster and more efficient development start.
 
----
+
 
 ### Getting Started
 

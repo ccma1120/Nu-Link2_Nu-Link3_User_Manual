@@ -5,7 +5,7 @@
 - Install **IAR EWARM**.
 - Download and install [Nu-Link_IAR_Driver](https://www.nuvoton.com/tool-and-software/ide-and-compiler/) for IAR EWARM before configuring the Nu-Link3-Pro.
 
----
+
 
 ### Project Settings
 
@@ -16,7 +16,7 @@
    ![IAR EWARM Target Chip Selection](../../media/nu-link3/image64.png)
    
 
----
+
 
 ### Debugger and Programmer Settings
 
@@ -35,7 +35,7 @@
    ![Select .board File for IAR EWARM](../../media/nu-link3/image67.png)
    
 
----
+
 
 ### Driver Plugin File Settings
 
@@ -51,7 +51,7 @@
    ![Specify the Port and Target I/O Voltage](../../media/nu-link3/image69.png)
    
 
----
+
 
 ### Compile and Debug
 
