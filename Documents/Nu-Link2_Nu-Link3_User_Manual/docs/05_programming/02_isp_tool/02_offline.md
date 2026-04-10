@@ -97,7 +97,7 @@ The offline LED indicator for ISP is the same as for ICP.
 | Offline Programming Failed (Auto mode)  | On  | On  | Flash   | -         |
 | Offline Programming Failed              | On  | On  | Flash   | -         |
 
-*Table: Offline ISP LED Status*
+Table: Offline ISP LED Status
 
 
 

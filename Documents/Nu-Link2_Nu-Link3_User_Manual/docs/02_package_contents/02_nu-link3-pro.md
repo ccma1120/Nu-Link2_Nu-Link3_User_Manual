@@ -100,4 +100,4 @@ Status LED (ICES0, ICES1, ICES2, ICES3)
 | Offline Programming Completed (Auto mode) | On | On | - | - |
 | Offline Programming Failed | On | Flash | - | - |
 
-*Table: Comparison of Status LED Indicators*
+Table: Comparison of Status LED Indicators

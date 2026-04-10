@@ -71,4 +71,4 @@
    | SPI, UART, I2C/I3C, RS-485, CAN | Chip reset reboots into LDROM; ISP FW connects to tool. |
    | USB | Chip reset reboots into LDROM; ISP FW checks control pin state (Low) to enter ISP mode. |
 
-   *Table: ISP Entry Conditions*
+   Table: ISP Entry Conditions

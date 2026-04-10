@@ -32,7 +32,7 @@
    | Reset | Select **Reset** type to allow the debugger to automatically reset the target chip |
    | IO Voltage | Specifies the SWD port I/O voltage (1.8 V, 2.5 V, 3.3 V, or 5 V) |
 
-   *Table: Debugger Function Settings Description*
+   Table: Debugger Function Settings Description
    
 ---
 
@@ -97,7 +97,7 @@ The Nu-Link supports debugging for NuMicro® Family chips via the SWD interface.
 | System Viewer | View and modify peripheral registers in real-time |
 | Semihost | Output debug messages via debugger |
 
-*Table: Debug Mode Features*
+Table: Debug Mode Features
 
 #### Breakpoints
 

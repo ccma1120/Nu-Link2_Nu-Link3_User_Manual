@@ -93,5 +93,7 @@ Maximum sample rate and record length for various channel count combinations:
 | 4             | 10                   | 2080      | 520      | 208        |           |
 | 6             | 4                    | 1040      | 260       |           |           |
 
+Table: Maximum Sample Rate and Record Length by Channel Count
+
 
 

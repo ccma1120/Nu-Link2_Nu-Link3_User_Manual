@@ -24,7 +24,7 @@ The Nu-Link3-Pro mainly contains USB, USB Type-C, Bridge interface, ETM interfac
 | GND | CON4.9 | Ground |
 | FAIL/TX | CON4.10 | "FAIL" is Control Bus signals for IC Programmer. Also UART TX for Virtual COM (Used for Online ISP).  |
 
-*Table: SWD Interface Pin Definition and Description*
+Table: SWD Interface Pin Definition and Description
 
 #### ICE Programming Connection
 
@@ -41,7 +41,7 @@ The Nu-Link3-Pro provides ICE function to Programming and debugging on PC.
 | /RESET | CON4.7 | /RESET |
 | VSS(GND) | CON4.9 | VSS(GND) |
 
-*Table: SWD Interface Corresponding Pin for ICE*
+Table: SWD Interface Corresponding Pin for ICE
 
 #### Virtual COM Connection
 
@@ -57,7 +57,7 @@ The Nu-Link3-Pro provides virtual COM port (VCOM) function to print out messages
 | VSS(GND) | CON4.9 | VSS(GND) |
 | FAIL/TX | CON4.10 | UART_TX |
 
-*Table: SWD Interface Corresponding Pin for Virtual COM*
+Table: SWD Interface Corresponding Pin for Virtual COM
 
 #### Automatic IC Programming Connection
 
@@ -100,7 +100,7 @@ The Nu-Link3-Pro supports SWO (Serial Wire Output) for trace and monitoring func
 | GPIO1 | CON6.19 | General Purpose I/O 1 |
 | GND | CON6.20 | Ground |
 
-*Table: Bridge Interface Pin Definition and Description*
+Table: Bridge Interface Pin Definition and Description
 
 #### UART Connection
 
@@ -171,7 +171,7 @@ This connection is also used by default for Offline ISP.
 | GND | CON3.19 | Ground |
 | TRACEDATA[3] | CON3.20 | ETM trace data output pin. |
 
-*Table: ETM Interface Pin Definition and Description*
+Table: ETM Interface Pin Definition and Description
 
 #### SWD and ETM Connection
 
@@ -180,5 +180,5 @@ This connection is also used by default for Offline ISP.
 
 ### ICP Offline Programming Function Connection
 
-![ICP Offline Programming Illustration of SWD Interface](../../media/nu-link3/image20.png)
+![ICP Offline Programming Illustration of SWD Interface](../../media/nu-link3/image20.png){ width=80% }
 

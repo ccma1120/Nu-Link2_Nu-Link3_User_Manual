@@ -21,7 +21,7 @@ Nu-Link has three interfaces to download the offline data for offline download:
 | SD card | External SD card storage | Nu-Link2-Pro and Nu-Link3-Pro |
 | Embedded SPI flash | Built-in flash memory | Nu-Link |
 
-*Table: Offline Data Storage Options*
+Table: Offline Data Storage Options
 
 **Steps to use USB flash drive or SD card interface for offline download:**
 
@@ -84,7 +84,7 @@ This section describes how to use Nu-Link for automatic offline programming.
 
 The Nu-Link-Pro family supports the wide voltage programming function for offline programming. The development software tool can adjust the SWD port voltage as 1.8 V, 2.5 V, 3.3 V, or 5.0 V. The pins that can be controlled include VCC, ICE_DAT, ICE_CLK, and /RESET.
 
-*Table: Supported Voltage Levels*
+Table: Supported Voltage Levels
 
 
 
