@@ -17,13 +17,11 @@
 
    ![Enable Debug Information for Keil MDK](../../media/nu-link3/image47.png)
    
-   *Figure: Enable Debug Information for Keil MDK*
 
 3. **Select the Debugger:** Navigate to **Project → Options for Target → Debug**. In the "Use" drop-down menu on the right, select **Nuvoton Nu-Link Debugger** and ensure the option is checked.
 
    ![Debugger Setting in Options Window](../../media/nu-link3/image48.png)
    
-   *Figure: Debugger Setting in Options Window*
 
 4. **Configure Debug Parameters:** Click the **Settings** button to open the **Debug** setup window.
 
@@ -44,25 +42,21 @@
 
    ![Keil MDK Programmer Selection](../../media/nu-link3/image52.png)
    
-   *Figure: Keil MDK Programmer Selection*
 
 6. **Configure Flash Download:** Click the **Settings** button to open the **Flash Download** setup window. Here, you can specify actions to be performed before programming the target via the Nu-Link.
 
    ![Nu-Link3 Programming Settings](../../media/nu-link3/image53.png)
    
-   *Figure: Nu-Link Programming Settings*
 
 7. **Compile and Download:** Click **Rebuild** to compile all target files. After a successful compilation, click the **Download** button to flash the code to memory. To begin a session, click the **Start/Stop Debug Session** button to enter debug mode.
 
    ![Compile and Download the Project](../../media/nu-link3/image54.png)
    
-   *Figure: Compile and Download the Project*
 
 8. **Execution and Monitoring:** Click **Run** to execute the code; debug messages will be displayed. While in debug mode, you can analyze the project by inspecting source code, assembly language, and peripheral registers, as well as utilizing breakpoints, step-run, and variable monitoring.
 
    ![Keil MDK Debug Mode](../../media/nu-link3/image55.png)
    
-   *Figure: Keil MDK Debug Mode*
 
 ---
 
@@ -79,7 +73,6 @@ To enable **Embedded Trace Macrocell (ETM)** tracing on Nuvoton Cortex®-M4, M23
 
    ![Trace Setup with ETM](../../media/nu-link3/image58.png)
    
-   *Figure: Trace Setup with ETM*
 
 3. **Build and Download:** Build the project and download the code to the target chip.
 
@@ -89,7 +82,6 @@ To enable **Embedded Trace Macrocell (ETM)** tracing on Nuvoton Cortex®-M4, M23
 
    ![Tracing Information Dialog](../../media/nu-link3/image61.png)
    
-   *Figure: Tracing Information Dialog*
 
    
 
@@ -118,7 +110,6 @@ Breakpoints allow you to pause program execution at specific lines of code. Duri
 
 ![Setting Breakpoints in Keil MDK Debug Mode](../../media/nu-link3/image22.png)
 
-*Figure: Setting Breakpoints in Keil MDK Debug Mode*
 
 #### System Viewer
 
@@ -131,7 +122,6 @@ The System Viewer displays peripheral register contents and allows real-time man
 
 ![System Viewer Control Related Options in Keil MDK Debug Mode](../../media/nu-link3/image23.png)
 
-*Figure: System Viewer Menu in Keil MDK Debug Mode*
 
 **Register Operations:**
 - **Expand register details:** Double-click a register name to view bit fields.
@@ -139,7 +129,6 @@ The System Viewer displays peripheral register contents and allows real-time man
 
 ![System Viewer in Keil MDK Debug Mode](../../media/nu-link3/image24.png)
 
-*Figure: System Viewer Register Details in Keil MDK Debug Mode*
 
 #### Semihost
 
@@ -165,6 +154,5 @@ Semihost enables debug message output through the debugger interface, eliminatin
 
 ![Semihost Options in Keil MDK Debug Mode](../../media/nu-link3/image26.png)
 
-*Figure: Semihost Output in Keil MDK Debug Mode*
 
 > **Note:** Semihost output is slower than hardware UART but is useful for debugging when UART pins are unavailable or in use by the application.

@@ -8,7 +8,6 @@ In addition, the Nu-Link supports "Limited Offline Programming," which can effec
 
 ![Offline Programming Flow Diagram](../../../media/nu-link3/image28.png)
 
-*Figure: Offline Programming Flow Diagram*
 
 ---
 
@@ -42,19 +41,16 @@ This section describes how to use Nu-Link for automatic offline programming.
 
 ![ICP Erase Whole Target Chip Diagram](../../../media/nu-link3/image29.png)
 
-*Figure: ICP Erase Whole Target Chip Diagram*
 
 **Step 3:** Load target **APROM** file.
 
 ![ICP Offline Programming Diagram](../../../media/nu-link3/image30.png)
 
-*Figure: ICP Offline Programming Diagram*
 
 **Step 4:** Click **Setting** and select **Boot Option** as **APROM**.
 
 ![ICP Offline Programming Illustration of Chip Settings](../../../media/nu-link3/image31.png)
 
-*Figure: ICP Offline Programming Illustration of Chip Settings*
 
 **Step 5:** Select the Programming target area as APROM.
 
@@ -62,13 +58,11 @@ This section describes how to use Nu-Link for automatic offline programming.
 
 ![ICP Offline Programming Illustration of Program Option](../../../media/nu-link3/image32.png)
 
-*Figure: ICP Offline Programming Illustration of Program Option*
 
 **Step 7:** Press **Start** to storage offline data to Nu-Link, and confirm that APROM of Offline Flash and APROM of Load File are file matched.
 
 ![ICP Offline Flash File matched Diagram](../../../media/nu-link3/image33.png)
 
-*Figure: ICP Offline Flash File matched Diagram*
 
 **Step 8:** Re-plug the power with Nu-Link and connect the target chip.
 
@@ -102,4 +96,3 @@ The user can specify a set of "Increased Serial Number (SN)" and "Write Address"
 
 ![Software Serial Number (SN) Settings](../../../media/nu-link3/image35.png)
 
-*Figure: Software Serial Number (SN) Settings*

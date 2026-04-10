@@ -92,13 +92,9 @@ Figure: SWD Connector Pin Diagrams
 
 - When BUSY is set to logic 1, and FAIL is set to logic 0, means “FAIL”.
 
-![](../../media/nu-link2/image83.png)
+![PASS Waveform](../../media/nu-link2/image83.png)
 
-> Figure: PASS Waveform
-
-![](../../media/nu-link2/image84.png)
-
-> Figure: FAIL Waveform
+![FAIL Waveform](../../media/nu-link2/image84.png)
 
 
 

@@ -8,13 +8,11 @@
 
    ![Startup Screen of ISP Tool](../../../media/nu-link3/image82.png)
    
-   *Figure: Startup Screen of ISP Tool*
 
 3. **Check Status:** Upon opening, the status will show "Disconnected" as the target chip is not yet linked.
 
    ![ISP is not connected to any device](../../../media/nu-link3/image83.png)
    
-   *Figure: ISP Tool is not connected to any device*
 
 ---
 
@@ -35,7 +33,6 @@
 
    ![ISP Firmware Sample Code Project](../../../media/nu-link3/image84.png)
    
-   *Figure: ISP Firmware Sample Code Project*
 
 2. **Flash ISP Bootloader:**
    - Configure the project to boot from **LDROM**.
@@ -43,7 +40,6 @@
 
    ![Boot from LDROM Setting in Keil ISP Firmware Project](../../../media/nu-link3/image85.png)
    
-   *Figure: Boot from LDROM Setting in Keil ISP Firmware Project*
 
 ---
 
@@ -56,13 +52,11 @@
 
    ![Connect to Target Chip with SPI Interface](../../../media/nu-link3/image86.png)
    
-   *Figure: Connect to Target Chip with SPI Interface*
 
 2. **UART Configuration (If applicable):** If using UART, select the correct COM port corresponding to the Nu-Link VCOM.
 
    ![Select VCOM Port Number with UART Interface](../../../media/nu-link3/image87.png)
    
-   *Figure: Select VCOM Port Number with UART Interface*
 
 3. **Program Device:**
    - Load the application binary file (APROM) you wish to flash.
@@ -71,7 +65,6 @@
 
    ![Program Data to Target Chip with SPI Interface](../../../media/nu-link3/image88.png)
    
-   *Figure: Program Data to Target Chip with SPI Interface*
 
    | ISP Interface | Connection Condition |
    |---------------|----------------------|

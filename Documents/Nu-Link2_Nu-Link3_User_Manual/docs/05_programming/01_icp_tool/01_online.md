@@ -3,7 +3,6 @@
 Online Programming means that the Nu-Link family can download the firmware to the target chip through software programs.
 
 ![Online Programming Flow Diagram](../../../media/nu-link3/image27.png)
-*Figure: Online Programming Flow Diagram*
 
 
 ### Installation and Launch
@@ -13,12 +12,10 @@ Online Programming means that the Nu-Link family can download the firmware to th
 2. **Initial Launch:** Open the ICP Tool. Select your preferred **UI language** and the specific **target chip** series, then click **Continue** to enter the main interface.
 
    ![Startup Screen of ICP Tool](../../../media/nu-link3/image37.png)
-   *Figure: Startup Screen of ICP Tool*
 
 3. **Connection Status:** Upon entering the main window, the connection status in the status bar will display as **"Disconnected"**. This indicates that the ICP Tool has not yet established a communication link with the Nu-Link hardware.
 
    ![ICP Tool Main Window](../../../media/nu-link3/image38.png)   
-   *Figure: ICP Tool Main Window*
 
 
 ### Establishing Connection
@@ -28,7 +25,6 @@ Online Programming means that the Nu-Link family can download the firmware to th
 5. **Select the target adapter.** When two or more Nu-Link Debugger and Programmers are detected, a selection message will appear. Select the desired adapter and click OK to establish the connection.
 
    ![Select One Nu-Link](../../../media/nu-link3/image39.png)
-   *Figure: Select One Nu-Link*
 
 
 ### Configure Programming Options
@@ -38,17 +34,14 @@ Online Programming means that the Nu-Link family can download the firmware to th
 7. **Set Voltage:** In the **Nu-Link Pro IO Voltage** section, specify the appropriate supply voltage for the target chip's SWD port.
 
    ![ICP Tool Programming Options](../../../media/nu-link3/image40.png)
-   *Figure: ICP Tool Programming Options*
 
 8. **Establishing Connection:** Once the **Connect** button is clicked, the ICP Tool establishes a link with the Nu-Link via the SWD port.
 
    ![Nu-Link Connected with a Target Chip Detected](../../../media/nu-link3/image41.png)
-   *Figure: Nu-Link Connected with a Target Chip Detected*
 
 9. **Target Detection Status:** If the ICP Tool connects to the Nu-Link but fails to find a target chip, the tool will continuously attempt to detect a chip until **Stop Check** is clicked.
 
    ![Nu-Link Connected with No Target Chip Detected](../../../media/nu-link3/image42.png)
-   *Figure: Nu-Link Connected with No Target Chip Detected*
 
 ---
 
@@ -57,14 +50,12 @@ Online Programming means that the Nu-Link family can download the firmware to th
 10. **File Selection:** Select the desired **.bin** file(s) for the APROM or LDROM sections. Ensure you check the corresponding tick boxes for the memory locations you intend to program.
 
     ![Programming File Selection Window](../../../media/nu-link3/image43.png)
-    *Figure: Programming File Selection Window*
 
 11. **Execution:** Click the **Start** button to begin the programming process.
 
 12. **Completion:** Upon successful completion, a confirmation window will appear.
 
     ![Programming Completion Window](../../../media/nu-link3/image44.png)
-    *Figure: Programming Completion Window*
 
 ---
 
@@ -81,4 +72,3 @@ The Software Serial Number (SN) function provided by the ICP Tool enables users 
 The user can specify a set of "Increased Serial Number (SN)" and "Write Address" to any of APROM, LDROM, and Data Flash, and the written Serial Number (SN) will be automatically incremented.
 
 ![Software Serial Number (SN) Settings](../../../media/nu-link3/image35.png)
-*Figure: Software Serial Number (SN) Settings*

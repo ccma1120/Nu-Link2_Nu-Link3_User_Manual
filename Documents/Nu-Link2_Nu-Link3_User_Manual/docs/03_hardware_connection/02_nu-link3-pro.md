@@ -4,7 +4,6 @@
 
 ![Pin Definition of Nu-Link3-Pro Connectors](../../media/nu-link3/image6.png)
 
-*Figure: Pin Definition of Nu-Link3-Pro Connectors*
 
 The Nu-Link3-Pro mainly contains USB, USB Type-C, Bridge interface, ETM interface and SWD interface. Users can freely select a suitable interface for debugger and programmer.
 
@@ -33,7 +32,6 @@ The Nu-Link3-Pro provides ICE function to Programming and debugging on PC.
 
 ![SWD Interface Connection Diagram for ICE](../../media/nu-link3/image7.png)
 
-*Figure: SWD Interface Connection Diagram for ICE*
 
 | Pin Name | Pin Number | Pin Corresponding to the Target Board |
 |----------|------------|---------------------------------------|
@@ -51,7 +49,6 @@ The Nu-Link3-Pro provides virtual COM port (VCOM) function to print out messages
 
 ![SWD Interface Connection Diagram for Virtual COM](../../media/nu-link3/image8.png)
 
-*Figure: SWD Interface Connection Diagram for Virtual COM*
 
 | Pin Name | Pin Number | Pin Corresponding to the Target Board |
 |----------|------------|---------------------------------------|
@@ -68,7 +65,6 @@ The Nu-Link3-Pro provides Automatic IC Programming function to mass production. 
 
 ![SWD Interface Connection Diagram for Automatic IC Programming](../../media/nu-link3/image9.png)
 
-*Figure: SWD Interface Connection Diagram for Automatic IC Programming*
 
 #### SWO Debug Connection
 
@@ -76,7 +72,6 @@ The Nu-Link3-Pro supports SWO (Serial Wire Output) for trace and monitoring func
 
 ![SWD Interface Connection Diagram for SWO debug](../../media/nu-link3/image10.png)
 
-*Figure: SWD Interface Connection Diagram for SWO debug*
 
 ---
 
@@ -113,49 +108,41 @@ This connection is also used by default for Offline ISP.
 
 ![Bridge Interface Connection Diagram for UART](../../media/nu-link3/image11.png)
 
-*Figure: Bridge Interface Connection Diagram for UART*
 
 #### I2C/I3C Connection
 
 ![Bridge Interface Connection Diagram for I2C/I3C](../../media/nu-link3/image12.png)
 
-*Figure: Bridge Interface Connection Diagram for I2C/I3C*
 
 #### SPI Connection
 
 ![Bridge Interface Connection Diagram for SPI](../../media/nu-link3/image13.png)
 
-*Figure: Bridge Interface Connection Diagram for SPI*
 
 #### RS-485 Connection
 
 ![Bridge Interface Connection Diagram for RS-485](../../media/nu-link3/image14.png)
 
-*Figure: Bridge Interface Connection Diagram for RS-485*
 
 #### CAN BUS Connection
 
 ![Bridge Interface Connection Diagram for CAN BUS](../../media/nu-link3/image15.png)
 
-*Figure: Bridge Interface Connection Diagram for CAN BUS*
 
 #### PWM and Capture
 
 ![Bridge Interface Connection Diagram for PWM](../../media/nu-link3/image16.png)
 
-*Figure: Bridge Interface Connection Diagram for PWM*
 
 #### ADC Connection
 
 ![Bridge Interface Connection Diagram for ADC](../../media/nu-link3/image17.png)
 
-*Figure: Bridge Interface Connection Diagram for ADC*
 
 #### GPIO Connection
 
 ![Bridge Interface Connection Diagram for GPIO](../../media/nu-link3/image18.png)
 
-*Figure: Bridge Interface Connection Diagram for GPIO*
 
 ---
 
@@ -190,7 +177,6 @@ This connection is also used by default for Offline ISP.
 
 ![ETM Interface Connection Diagram for SWD](../../media/nu-link3/image19.png)
 
-*Figure: ETM Interface Connection Diagram for SWD and ETM Function*
 
 ---
 
@@ -198,4 +184,3 @@ This connection is also used by default for Offline ISP.
 
 ![ICP Offline Programming Illustration of SWD Interface](../../media/nu-link3/image20.png)
 
-*Figure: ICP Offline Programming Illustration of SWD Interface*

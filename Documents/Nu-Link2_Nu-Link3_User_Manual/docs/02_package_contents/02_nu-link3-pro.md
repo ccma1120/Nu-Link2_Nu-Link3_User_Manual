@@ -3,7 +3,6 @@
 
 ![Nu-Link3-Pro Package Contents](../../media/nu-link3/image2.png)
 
-*Figure: Nu-Link3-Pro Full Package Contents*
 
 The Nu-Link3-Pro full package contains:
 
@@ -21,7 +20,6 @@ The Nu-Link3-Pro full package contains:
 
 ![Front View of Nu-Link3-Pro PCBA](../../media/nu-link3/image3.png)
 
-*Figure: Front View of Nu-Link3-Pro PCBA*
 
 The following lists components and connectors from the front view:
 
@@ -38,7 +36,6 @@ The following lists components and connectors from the front view:
 
 ![Rear View of Nu-Link3-Pro PCBA](../../media/nu-link3/image4.png)
 
-*Figure: Rear View of Nu-Link3-Pro PCBA*
 
 The following lists components and connectors from the rear view:
 
@@ -49,7 +46,6 @@ The following lists components and connectors from the rear view:
 
 ![Nu-Link3-Pro Connector and Function Overview](../../media/nu-link3/image5.png)
 
-*Figure: Nu-Link3-Pro Connector and Function Overview*
 
 #### Connectors and Functions
 

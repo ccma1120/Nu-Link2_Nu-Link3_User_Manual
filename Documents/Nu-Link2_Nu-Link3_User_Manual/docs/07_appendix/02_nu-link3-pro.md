@@ -71,7 +71,6 @@ The automatic IC programming system through individual slot and the Control Bus.
 
 ![SWD Connector Pin Diagrams](../../media/nu-link3/image90.png)
 
-*Figure: SWD Connector Pin Diagrams*
 
 #### Operation Sequence and Waveform
 
@@ -87,10 +86,8 @@ The automatic IC programming system through individual slot and the Control Bus.
 
 ![PASS Waveform](../../media/nu-link3/image91.png)
 
-*Figure: PASS Waveform*
 
 ![FAIL Waveform](../../media/nu-link3/image92.png)
 
-*Figure: FAIL Waveform*
 
 

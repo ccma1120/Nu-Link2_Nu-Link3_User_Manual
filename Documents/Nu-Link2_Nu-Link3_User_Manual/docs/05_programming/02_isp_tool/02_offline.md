@@ -46,7 +46,6 @@ The following is the flowchart:
 
 ![ISP Offline Flow](../../../media/nu-link3/nulink3-isp-offline.png)
 
-*Figure: Offline ISP Programming Flow*
 
 ---
 
@@ -109,4 +108,3 @@ The offline LED indicator for ISP is the same as for ICP.
 
 ![Offline ISP LED Indicators](../../../media/nu-link3/nulink3-offlineISP-blink.png)
 
-*Figure: Offline ISP Success/Failure LED Indicators*

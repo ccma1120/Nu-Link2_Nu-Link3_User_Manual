@@ -6,5 +6,4 @@ This chapter introduces how to configure various software tools to use the Nu-Li
 
 ![Nu-Link3-Pro Connection Diagram](../../media/nu-link3/image36.png)
 
-*Figure: Nu-Link3-Pro Connection Diagram*
 
